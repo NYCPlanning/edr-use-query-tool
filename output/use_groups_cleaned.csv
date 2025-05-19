@@ -1,0 +1,10 @@
+Use Group,Uses Header,Uses (NAICS Code),R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,C1,C2,C3,C4,C5,C6,C7,C8,M1,M2,M3,PRC 
+X,Food Manufacturing (311),Animal food manufacturing (3111),–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,●P,●P,●P,D1
+X,Food Manufacturing (311),Sugar manufacturing (31131),–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,●P,●P,●P,D1
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),–,–,–,–,–,–,–,–,–,–,●SP,●SP,–,●SP,●SP,●SP,●SP,●P,●P,●P,●P,D1
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,●P,●P,●P,D1
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,●P,●P,●P,D1
+X,Food Manufacturing (311),All other food manufacturing (in 311),–,–,–,–,–,–,–,–,–,–,●SP,●SP,–,●SP,●SP,●SP,●SP,●P,●P,●P,●P,D1
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,–,●P,●P,●P,D1
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),–,–,–,–,–,–,–,–,–,–,●SP,●SP,–,●SP,●SP,●SP,●SP,●P,●P,●P,●P,D1
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),–,–,–,–,–,–,–,–,–,–,●SP,●SP,–,●SP,●SP,●SP,●SP,●P,●P,●P,●P,D1

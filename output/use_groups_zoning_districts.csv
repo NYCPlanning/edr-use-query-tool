@@ -1,0 +1,199 @@
+Use Group,Uses Header,Uses (NAICS Code),Zoning District,Permitted Value
+X,Food Manufacturing (311),Animal food manufacturing (3111),R1,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R1,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R1,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R1,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R1,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R1,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R1,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R1,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R1,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R2,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R2,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R2,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R2,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R2,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R2,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R2,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R2,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R2,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R3,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R3,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R3,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R3,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R3,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R3,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R3,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R3,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R3,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R4,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R4,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R4,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R4,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R4,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R4,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R4,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R4,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R4,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R5,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R5,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R5,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R5,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R5,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R5,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R5,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R5,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R5,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R6,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R6,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R6,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R6,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R6,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R6,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R6,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R6,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R6,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R7,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R7,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R7,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R7,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R7,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R7,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R7,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R7,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R7,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R8,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R8,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R8,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R8,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R8,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R8,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R8,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R8,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R8,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R9,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R9,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R9,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R9,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R9,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R9,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R9,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R9,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R9,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R10,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R10,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R10,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R10,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R10,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R10,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R10,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),R10,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R10,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),C1,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C1,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C1,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C1,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C1,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C1,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C1,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C1,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C1,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C2,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C2,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C2,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C2,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C2,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C2,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C2,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C2,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C2,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C3,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C3,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C3,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C3,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C3,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C3,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C3,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C3,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C3,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),C4,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C4,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C4,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C4,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C4,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C4,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C4,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C4,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C4,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C5,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C5,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C5,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C5,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C5,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C5,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C5,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C5,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C5,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C6,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C6,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C6,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C6,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C6,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C6,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C6,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C6,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C6,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C7,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C7,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C7,●SP
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C7,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C7,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C7,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C7,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C7,●SP
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C7,●SP
+X,Food Manufacturing (311),Animal food manufacturing (3111),C8,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),C8,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),C8,●P
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),C8,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),C8,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),C8,●P
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),C8,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),C8,●P
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),C8,●P
+X,Food Manufacturing (311),Animal food manufacturing (3111),M1,●P
+X,Food Manufacturing (311),Sugar manufacturing (31131),M1,●P
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),M1,●P
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),M1,●P
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),M1,●P
+X,Food Manufacturing (311),All other food manufacturing (in 311),M1,●P
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),M1,●P
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),M1,●P
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),M1,●P
+X,Food Manufacturing (311),Animal food manufacturing (3111),M2,●P
+X,Food Manufacturing (311),Sugar manufacturing (31131),M2,●P
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),M2,●P
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),M2,●P
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),M2,●P
+X,Food Manufacturing (311),All other food manufacturing (in 311),M2,●P
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),M2,●P
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),M2,●P
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),M2,●P
+X,Food Manufacturing (311),Animal food manufacturing (3111),M3,●P
+X,Food Manufacturing (311),Sugar manufacturing (31131),M3,●P
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),M3,●P
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),M3,●P
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),M3,●P
+X,Food Manufacturing (311),All other food manufacturing (in 311),M3,●P
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),M3,●P
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),M3,●P
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),M3,●P
+X,Food Manufacturing (311),Animal food manufacturing (3111),PRC ,D1
+X,Food Manufacturing (311),Sugar manufacturing (31131),PRC ,D1
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),PRC ,D1
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),PRC ,D1
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),PRC ,D1
+X,Food Manufacturing (311),All other food manufacturing (in 311),PRC ,D1
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),PRC ,D1
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing ( in 3121 ),PRC ,D1
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),PRC ,D1
