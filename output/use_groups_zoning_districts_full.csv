@@ -7,14 +7,10 @@ I,Open Uses,Outdoor skating rinks,R1,○
 I,Open Uses,#Public parks# or playgrounds or private parks,R1,●
 I,Open Uses,"Sand, gravel or clay pits",R1,○
 II,Residential Uses,#Single-family residence# #Detached#,R1,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R1,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,R1,–
-II,Residential Uses,#Single-family residence# Other types,R1,–
-II,Residential Uses,#Two-family residence# #Detached#,R1,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,R1,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,R1,–
-II,Residential Uses,#Two-family residence# Other types,R1,–
-II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R1,–
+II,Residential Uses,#Single-family residence# Other types,R1,●P
+II,Residential Uses,#Two-family residence# #Detached#,R1,●P
+II,Residential Uses,#Two-family residence# Other types,R1,●P
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R1,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R1,○
 III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R1,●
 III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R1,●
@@ -251,14 +247,10 @@ I,Open Uses,Outdoor skating rinks,R2,○
 I,Open Uses,#Public parks# or playgrounds or private parks,R2,●
 I,Open Uses,"Sand, gravel or clay pits",R2,○
 II,Residential Uses,#Single-family residence# #Detached#,R2,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R2,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,R2,–
-II,Residential Uses,#Single-family residence# Other types,R2,–
-II,Residential Uses,#Two-family residence# #Detached#,R2,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,R2,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,R2,–
-II,Residential Uses,#Two-family residence# Other types,R2,–
-II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R2,–
+II,Residential Uses,#Single-family residence# Other types,R2,●P
+II,Residential Uses,#Two-family residence# #Detached#,R2,●P
+II,Residential Uses,#Two-family residence# Other types,R2,●P
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R2,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R2,○
 III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R2,●
 III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R2,●
@@ -495,14 +487,10 @@ I,Open Uses,Outdoor skating rinks,R3,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R3,●
 I,Open Uses,"Sand, gravel or clay pits",R3,○
 II,Residential Uses,#Single-family residence# #Detached#,R3,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R3,♦
-II,Residential Uses,#Single-family residence# #Semi-detached#,R3,♦
-II,Residential Uses,#Single-family residence# Other types,R3,♦
-II,Residential Uses,#Two-family residence# #Detached#,R3,●P
-II,Residential Uses,#Two-family residence# #Zero lot line#,R3,♦
-II,Residential Uses,#Two-family residence# #Semi-detached#,R3,♦P
-II,Residential Uses,#Two-family residence# Other types,R3,♦
-II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R3,♦
+II,Residential Uses,#Single-family residence# Other types,R3,●P
+II,Residential Uses,#Two-family residence# #Detached#,R3,●
+II,Residential Uses,#Two-family residence# Other types,R3,●P
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R3,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R3,●
 III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R3,●
 III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R3,●
@@ -739,14 +727,10 @@ I,Open Uses,Outdoor skating rinks,R4,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R4,●
 I,Open Uses,"Sand, gravel or clay pits",R4,○
 II,Residential Uses,#Single-family residence# #Detached#,R4,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R4,♦
-II,Residential Uses,#Single-family residence# #Semi-detached#,R4,♦
-II,Residential Uses,#Single-family residence# Other types,R4,♦
-II,Residential Uses,#Two-family residence# #Detached#,R4,●P
-II,Residential Uses,#Two-family residence# #Zero lot line#,R4,♦
-II,Residential Uses,#Two-family residence# #Semi-detached#,R4,♦P
-II,Residential Uses,#Two-family residence# Other types,R4,♦
-II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R4,♦
+II,Residential Uses,#Single-family residence# Other types,R4,●P
+II,Residential Uses,#Two-family residence# #Detached#,R4,●
+II,Residential Uses,#Two-family residence# Other types,R4,●P
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R4,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R4,●
 III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R4,●
 III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R4,●
@@ -983,14 +967,10 @@ I,Open Uses,Outdoor skating rinks,R5,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R5,●
 I,Open Uses,"Sand, gravel or clay pits",R5,○
 II,Residential Uses,#Single-family residence# #Detached#,R5,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R5,♦
-II,Residential Uses,#Single-family residence# #Semi-detached#,R5,♦
-II,Residential Uses,#Single-family residence# Other types,R5,♦
+II,Residential Uses,#Single-family residence# Other types,R5,●P
 II,Residential Uses,#Two-family residence# #Detached#,R5,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R5,♦
-II,Residential Uses,#Two-family residence# #Semi-detached#,R5,♦
-II,Residential Uses,#Two-family residence# Other types,R5,♦
-II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R5,♦
+II,Residential Uses,#Two-family residence# Other types,R5,●P
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R5,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R5,●
 III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R5,●
 III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R5,●
@@ -1227,12 +1207,8 @@ I,Open Uses,Outdoor skating rinks,R6,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R6,●
 I,Open Uses,"Sand, gravel or clay pits",R6,○
 II,Residential Uses,#Single-family residence# #Detached#,R6,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R6,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,R6,●
 II,Residential Uses,#Single-family residence# Other types,R6,●
 II,Residential Uses,#Two-family residence# #Detached#,R6,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R6,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,R6,●
 II,Residential Uses,#Two-family residence# Other types,R6,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R6,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R6,●
@@ -1471,12 +1447,8 @@ I,Open Uses,Outdoor skating rinks,R7,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R7,●
 I,Open Uses,"Sand, gravel or clay pits",R7,○
 II,Residential Uses,#Single-family residence# #Detached#,R7,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R7,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,R7,●
 II,Residential Uses,#Single-family residence# Other types,R7,●
 II,Residential Uses,#Two-family residence# #Detached#,R7,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R7,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,R7,●
 II,Residential Uses,#Two-family residence# Other types,R7,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R7,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R7,●
@@ -1715,12 +1687,8 @@ I,Open Uses,Outdoor skating rinks,R8,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R8,●
 I,Open Uses,"Sand, gravel or clay pits",R8,○
 II,Residential Uses,#Single-family residence# #Detached#,R8,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R8,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,R8,●
 II,Residential Uses,#Single-family residence# Other types,R8,●
 II,Residential Uses,#Two-family residence# #Detached#,R8,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R8,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,R8,●
 II,Residential Uses,#Two-family residence# Other types,R8,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R8,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R8,●
@@ -1959,12 +1927,8 @@ I,Open Uses,Outdoor skating rinks,R9,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R9,●
 I,Open Uses,"Sand, gravel or clay pits",R9,○
 II,Residential Uses,#Single-family residence# #Detached#,R9,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R9,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,R9,●
 II,Residential Uses,#Single-family residence# Other types,R9,●
 II,Residential Uses,#Two-family residence# #Detached#,R9,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R9,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,R9,●
 II,Residential Uses,#Two-family residence# Other types,R9,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R9,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R9,●
@@ -2203,12 +2167,8 @@ I,Open Uses,Outdoor skating rinks,R10,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,R10,●
 I,Open Uses,"Sand, gravel or clay pits",R10,○
 II,Residential Uses,#Single-family residence# #Detached#,R10,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,R10,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,R10,●
 II,Residential Uses,#Single-family residence# Other types,R10,●
 II,Residential Uses,#Two-family residence# #Detached#,R10,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,R10,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,R10,●
 II,Residential Uses,#Two-family residence# Other types,R10,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R10,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R10,●
@@ -2447,12 +2407,8 @@ I,Open Uses,Outdoor skating rinks,C1,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C1,●
 I,Open Uses,"Sand, gravel or clay pits",C1,○
 II,Residential Uses,#Single-family residence# #Detached#,C1,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,C1,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,C1,●
 II,Residential Uses,#Single-family residence# Other types,C1,●
 II,Residential Uses,#Two-family residence# #Detached#,C1,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,C1,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,C1,●
 II,Residential Uses,#Two-family residence# Other types,C1,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C1,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C1,●
@@ -2691,12 +2647,8 @@ I,Open Uses,Outdoor skating rinks,C2,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C2,●
 I,Open Uses,"Sand, gravel or clay pits",C2,○
 II,Residential Uses,#Single-family residence# #Detached#,C2,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,C2,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,C2,●
 II,Residential Uses,#Single-family residence# Other types,C2,●
 II,Residential Uses,#Two-family residence# #Detached#,C2,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,C2,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,C2,●
 II,Residential Uses,#Two-family residence# Other types,C2,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C2,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C2,●
@@ -2935,12 +2887,8 @@ I,Open Uses,Outdoor skating rinks,C3,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C3,●
 I,Open Uses,"Sand, gravel or clay pits",C3,○
 II,Residential Uses,#Single-family residence# #Detached#,C3,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,C3,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,C3,♦
 II,Residential Uses,#Single-family residence# Other types,C3,♦
 II,Residential Uses,#Two-family residence# #Detached#,C3,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,C3,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,C3,♦
 II,Residential Uses,#Two-family residence# Other types,C3,♦
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C3,♦
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C3,●
@@ -3179,12 +3127,8 @@ I,Open Uses,Outdoor skating rinks,C4,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C4,●
 I,Open Uses,"Sand, gravel or clay pits",C4,○
 II,Residential Uses,#Single-family residence# #Detached#,C4,●P
-II,Residential Uses,#Single-family residence# #Zero lot line#,C4,●P
-II,Residential Uses,#Single-family residence# #Semi-detached#,C4,●P
 II,Residential Uses,#Single-family residence# Other types,C4,●P
 II,Residential Uses,#Two-family residence# #Detached#,C4,●P
-II,Residential Uses,#Two-family residence# #Zero lot line#,C4,●P
-II,Residential Uses,#Two-family residence# #Semi-detached#,C4,●P
 II,Residential Uses,#Two-family residence# Other types,C4,●P
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C4,●P
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C4,●
@@ -3423,12 +3367,8 @@ I,Open Uses,Outdoor skating rinks,C5,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C5,●
 I,Open Uses,"Sand, gravel or clay pits",C5,○
 II,Residential Uses,#Single-family residence# #Detached#,C5,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,C5,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,C5,●
 II,Residential Uses,#Single-family residence# Other types,C5,●
 II,Residential Uses,#Two-family residence# #Detached#,C5,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,C5,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,C5,●
 II,Residential Uses,#Two-family residence# Other types,C5,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C5,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C5,●
@@ -3667,12 +3607,8 @@ I,Open Uses,Outdoor skating rinks,C6,●P
 I,Open Uses,#Public parks# or playgrounds or private parks,C6,●
 I,Open Uses,"Sand, gravel or clay pits",C6,○
 II,Residential Uses,#Single-family residence# #Detached#,C6,●
-II,Residential Uses,#Single-family residence# #Zero lot line#,C6,●
-II,Residential Uses,#Single-family residence# #Semi-detached#,C6,●
 II,Residential Uses,#Single-family residence# Other types,C6,●
 II,Residential Uses,#Two-family residence# #Detached#,C6,●
-II,Residential Uses,#Two-family residence# #Zero lot line#,C6,●
-II,Residential Uses,#Two-family residence# #Semi-detached#,C6,●
 II,Residential Uses,#Two-family residence# Other types,C6,●
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C6,●
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C6,●
@@ -3911,12 +3847,8 @@ I,Open Uses,Outdoor skating rinks,C7,●
 I,Open Uses,#Public parks# or playgrounds or private parks,C7,●
 I,Open Uses,"Sand, gravel or clay pits",C7,○
 II,Residential Uses,#Single-family residence# #Detached#,C7,–
-II,Residential Uses,#Single-family residence# #Zero lot line#,C7,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,C7,–
 II,Residential Uses,#Single-family residence# Other types,C7,–
 II,Residential Uses,#Two-family residence# #Detached#,C7,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,C7,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,C7,–
 II,Residential Uses,#Two-family residence# Other types,C7,–
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C7,–
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C7,●
@@ -4155,12 +4087,8 @@ I,Open Uses,Outdoor skating rinks,C8,●
 I,Open Uses,#Public parks# or playgrounds or private parks,C8,●
 I,Open Uses,"Sand, gravel or clay pits",C8,○
 II,Residential Uses,#Single-family residence# #Detached#,C8,–
-II,Residential Uses,#Single-family residence# #Zero lot line#,C8,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,C8,–
 II,Residential Uses,#Single-family residence# Other types,C8,–
 II,Residential Uses,#Two-family residence# #Detached#,C8,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,C8,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,C8,–
 II,Residential Uses,#Two-family residence# Other types,C8,–
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",C8,–
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,C8,–
@@ -4399,12 +4327,8 @@ I,Open Uses,Outdoor skating rinks,M1,●
 I,Open Uses,#Public parks# or playgrounds or private parks,M1,●
 I,Open Uses,"Sand, gravel or clay pits",M1,○
 II,Residential Uses,#Single-family residence# #Detached#,M1,*
-II,Residential Uses,#Single-family residence# #Zero lot line#,M1,*
-II,Residential Uses,#Single-family residence# #Semi-detached#,M1,*
 II,Residential Uses,#Single-family residence# Other types,M1,*
 II,Residential Uses,#Two-family residence# #Detached#,M1,*
-II,Residential Uses,#Two-family residence# #Zero lot line#,M1,*
-II,Residential Uses,#Two-family residence# #Semi-detached#,M1,*
 II,Residential Uses,#Two-family residence# Other types,M1,*
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",M1,*
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,M1,–
@@ -4643,12 +4567,8 @@ I,Open Uses,Outdoor skating rinks,M2,●
 I,Open Uses,#Public parks# or playgrounds or private parks,M2,–
 I,Open Uses,"Sand, gravel or clay pits",M2,○
 II,Residential Uses,#Single-family residence# #Detached#,M2,–
-II,Residential Uses,#Single-family residence# #Zero lot line#,M2,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,M2,–
 II,Residential Uses,#Single-family residence# Other types,M2,–
 II,Residential Uses,#Two-family residence# #Detached#,M2,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,M2,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,M2,–
 II,Residential Uses,#Two-family residence# Other types,M2,–
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",M2,–
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,M2,–
@@ -4887,12 +4807,8 @@ I,Open Uses,Outdoor skating rinks,M3,●
 I,Open Uses,#Public parks# or playgrounds or private parks,M3,–
 I,Open Uses,"Sand, gravel or clay pits",M3,○
 II,Residential Uses,#Single-family residence# #Detached#,M3,–
-II,Residential Uses,#Single-family residence# #Zero lot line#,M3,–
-II,Residential Uses,#Single-family residence# #Semi-detached#,M3,–
 II,Residential Uses,#Single-family residence# Other types,M3,–
 II,Residential Uses,#Two-family residence# #Detached#,M3,–
-II,Residential Uses,#Two-family residence# #Zero lot line#,M3,–
-II,Residential Uses,#Two-family residence# #Semi-detached#,M3,–
 II,Residential Uses,#Two-family residence# Other types,M3,–
 II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",M3,–
 III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,M3,–
