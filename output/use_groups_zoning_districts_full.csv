@@ -17,8 +17,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R1,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R1,○
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R1,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R1,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R1,○
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R1,●S
-III(A),Other Institutions and Facilities,Settlement houses,R1,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R1,○
 III(B),Educational Institutions,#Schools#,R1,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R1,●
@@ -27,11 +28,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R1,–
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R1,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R1,–
-III(B),Other Institutions and Facilities,Community centers,R1,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R1,●
 III(B),Other Institutions and Facilities,Libraries,R1,●
 III(B),Other Institutions and Facilities,Museums,R1,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R1,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R1,○
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R1,○
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R1,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R1,●S
 III(B),Other Institutions and Facilities,Welfare centers,R1,○
@@ -257,8 +258,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R2,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R2,○
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R2,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R2,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R2,○
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R2,●S
-III(A),Other Institutions and Facilities,Settlement houses,R2,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R2,○
 III(B),Educational Institutions,#Schools#,R2,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R2,●
@@ -267,11 +269,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R2,–
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R2,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R2,–
-III(B),Other Institutions and Facilities,Community centers,R2,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R2,●
 III(B),Other Institutions and Facilities,Libraries,R2,●
 III(B),Other Institutions and Facilities,Museums,R2,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R2,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R2,○
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R2,○
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R2,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R2,●S
 III(B),Other Institutions and Facilities,Welfare centers,R2,○
@@ -497,8 +499,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R3,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R3,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R3,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R3,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R3,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R3,●S
-III(A),Other Institutions and Facilities,Settlement houses,R3,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R3,●
 III(B),Educational Institutions,#Schools#,R3,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R3,●
@@ -507,11 +510,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R3,●S     P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R3,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R3,●
-III(B),Other Institutions and Facilities,Community centers,R3,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R3,●
 III(B),Other Institutions and Facilities,Libraries,R3,●
 III(B),Other Institutions and Facilities,Museums,R3,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R3,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R3,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R3,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R3,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R3,●S
 III(B),Other Institutions and Facilities,Welfare centers,R3,●
@@ -737,8 +740,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R4,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R4,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R4,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R4,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R4,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R4,●S
-III(A),Other Institutions and Facilities,Settlement houses,R4,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R4,●
 III(B),Educational Institutions,#Schools#,R4,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R4,●
@@ -747,11 +751,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R4,●S     P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R4,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R4,●
-III(B),Other Institutions and Facilities,Community centers,R4,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R4,●
 III(B),Other Institutions and Facilities,Libraries,R4,●
 III(B),Other Institutions and Facilities,Museums,R4,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R4,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R4,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R4,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R4,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R4,●S
 III(B),Other Institutions and Facilities,Welfare centers,R4,●
@@ -977,8 +981,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R5,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R5,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R5,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R5,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R5,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R5,●S
-III(A),Other Institutions and Facilities,Settlement houses,R5,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R5,●
 III(B),Educational Institutions,#Schools#,R5,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R5,●
@@ -987,11 +992,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R5,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R5,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R5,●
-III(B),Other Institutions and Facilities,Community centers,R5,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R5,●
 III(B),Other Institutions and Facilities,Libraries,R5,●
 III(B),Other Institutions and Facilities,Museums,R5,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R5,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R5,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R5,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R5,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R5,●S
 III(B),Other Institutions and Facilities,Welfare centers,R5,●
@@ -1217,8 +1222,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R6,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R6,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R6,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R6,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R6,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R6,●S
-III(A),Other Institutions and Facilities,Settlement houses,R6,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R6,●
 III(B),Educational Institutions,#Schools#,R6,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R6,●
@@ -1227,11 +1233,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R6,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R6,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R6,●
-III(B),Other Institutions and Facilities,Community centers,R6,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R6,●
 III(B),Other Institutions and Facilities,Libraries,R6,●
 III(B),Other Institutions and Facilities,Museums,R6,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R6,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R6,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R6,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R6,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R6,●S
 III(B),Other Institutions and Facilities,Welfare centers,R6,●
@@ -1457,8 +1463,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R7,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R7,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R7,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R7,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R7,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R7,●S
-III(A),Other Institutions and Facilities,Settlement houses,R7,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R7,●
 III(B),Educational Institutions,#Schools#,R7,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R7,●
@@ -1467,11 +1474,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R7,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R7,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R7,●
-III(B),Other Institutions and Facilities,Community centers,R7,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R7,●
 III(B),Other Institutions and Facilities,Libraries,R7,●
 III(B),Other Institutions and Facilities,Museums,R7,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R7,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R7,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R7,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R7,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R7,●S
 III(B),Other Institutions and Facilities,Welfare centers,R7,●
@@ -1697,8 +1704,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R8,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R8,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R8,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R8,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R8,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R8,●S
-III(A),Other Institutions and Facilities,Settlement houses,R8,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R8,●
 III(B),Educational Institutions,#Schools#,R8,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R8,●
@@ -1707,11 +1715,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R8,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R8,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R8,●
-III(B),Other Institutions and Facilities,Community centers,R8,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R8,●
 III(B),Other Institutions and Facilities,Libraries,R8,●
 III(B),Other Institutions and Facilities,Museums,R8,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R8,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R8,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R8,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R8,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R8,●S
 III(B),Other Institutions and Facilities,Welfare centers,R8,●
@@ -1937,8 +1945,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R9,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R9,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R9,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R9,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R9,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R9,●S
-III(A),Other Institutions and Facilities,Settlement houses,R9,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R9,●
 III(B),Educational Institutions,#Schools#,R9,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R9,●
@@ -1947,11 +1956,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R9,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R9,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R9,●
-III(B),Other Institutions and Facilities,Community centers,R9,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R9,●
 III(B),Other Institutions and Facilities,Libraries,R9,●
 III(B),Other Institutions and Facilities,Museums,R9,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R9,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R9,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R9,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R9,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R9,●S
 III(B),Other Institutions and Facilities,Welfare centers,R9,●
@@ -2177,8 +2186,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R10,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,R10,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R10,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R10,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R10,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R10,●S
-III(A),Other Institutions and Facilities,Settlement houses,R10,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R10,●
 III(B),Educational Institutions,#Schools#,R10,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,R10,●
@@ -2187,11 +2197,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R10,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R10,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R10,●
-III(B),Other Institutions and Facilities,Community centers,R10,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R10,●
 III(B),Other Institutions and Facilities,Libraries,R10,●
 III(B),Other Institutions and Facilities,Museums,R10,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,R10,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,R10,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R10,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,R10,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R10,●S
 III(B),Other Institutions and Facilities,Welfare centers,R10,●
@@ -2288,7 +2298,7 @@ VI Services,Educational Services (611),Business schools and computer and managem
 VI Services,Educational Services (611),Technical and trade schools (6115),R10,–
 VI Services,Educational Services (611),All other schools and instruction (6116 and 6117),R10,–
 VI Services,Food Services and Drinking Places (722),Special food services (7223),R10,–
-VI Services,Food Services and Drinking Places (722),Eating or drinking establishments (7224 and 7225),R10,○
+VI Services,Food Services and Drinking Places (722),Eating or drinking establishments (7224 and 7225),R10,–
 VI Services,Repair and Maintenance (811),#Heavy motor vehicle repair and maintenance shops#,R10,–
 VI Services,Repair and Maintenance (811),#Light motor vehicle repair and maintenance shops#,R10,–
 VI Services,Repair and Maintenance (811),Car washes (811192),R10,–
@@ -2399,6 +2409,488 @@ X,Transportation Equipment Manufacturing (336),Transportation equipment manufact
 X,Furniture and Related Product Manufacturing (337),Furniture and related product manufacturing (337),R10,–
 X,Miscellaneous Manufacturing (339),Medical equipment and supplies manufacturing (3391),R10,–
 X,Miscellaneous Manufacturing (339),Other miscellaneous manufacturing (3399),R10,–
+I,Agriculture,"Agricultural #uses#, including greenhouses, nurseries or truck gardens",R11,●P
+I,Open Uses,Cemeteries,R11,●
+I,Open Uses,Golf courses,R11,●
+I,Open Uses,Outdoor racket courts,R11,●P
+I,Open Uses,Outdoor skating rinks,R11,●P
+I,Open Uses,#Public parks# or playgrounds or private parks,R11,●
+I,Open Uses,"Sand, gravel or clay pits",R11,○
+II,Residential Uses,#Single-family residence# #Detached#,R11,●
+II,Residential Uses,#Single-family residence# Other types,R11,●
+II,Residential Uses,#Two-family residence# #Detached#,R11,●
+II,Residential Uses,#Two-family residence# Other types,R11,●
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R11,●
+III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R11,●
+III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R11,●
+III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R11,●
+III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R11,●
+III(A),Health Institutions and Facilities,#Long-term care facilities#,R11,●P
+III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R11,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R11,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R11,●P
+III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R11,●S
+III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R11,●
+III(B),Educational Institutions,#Schools#,R11,●
+III(B),Faith-based Institutions and Facilities,Houses of worship,R11,●
+III(B),Faith-based Institutions and Facilities,Parish houses without sleeping accommodations,R11,●
+III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accommodations,R11,●
+III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R11,●P
+III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R11,●
+III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R11,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R11,●
+III(B),Other Institutions and Facilities,Libraries,R11,●
+III(B),Other Institutions and Facilities,Museums,R11,●
+III(B),Other Institutions and Facilities,Non-commercial art galleries,R11,●
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R11,●P
+III(B),Other Institutions and Facilities,Non-commercial recreation centers,R11,●
+III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R11,●S
+III(B),Other Institutions and Facilities,Welfare centers,R11,●
+IV(A),Public Service Buildings,Court houses,R11,–
+IV(A),Public Service Buildings,Fire or police stations,R11,○
+IV(A),Other Facilities,Prisons,R11,–
+IV(B),Communication Infrastructure,"Radio or television towers, non-#accessory#",R11,○
+IV(B),Communication Infrastructure,Telephone exchanges or other communications equipment structures,R11,○
+IV(B),Electric and Gas Infrastructure,Electric power or steam generating plants,R11,–
+IV(B),Electric and Gas Infrastructure,Electric utility substations,R11,○
+IV(B),Electric and Gas Infrastructure,Gas utility substations,R11,○
+IV(B),Electric and Gas Infrastructure,Public utility stations for oil or gas metering or regulating,R11,○
+IV(B),Electric and Gas Infrastructure,"Terminal facilities at river crossings for access to electric, gas, or steam lines",R11,○
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Composting,R11,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure","Dumps, recycling or material recovery facilities, marine transfer stations for garbage or slag piles",R11,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure","Incineration or reduction of garbage, offal or dead animals",R11,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Radioactive waste disposal services involving the handling or storage of radioactive waste,R11,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Sewage disposal plants,R11,○
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Water or sewage pumping stations,R11,○
+IV(B),Transportation Infrastructure,Airports,R11,–
+IV(B),Transportation Infrastructure,Boat launching facilities for non-commercial pleasure boats,R11,–
+IV(B),Transportation Infrastructure,Bus stations,R11,–
+IV(B),Transportation Infrastructure,Docks,R11,○
+IV(B),Transportation Infrastructure,"Freight terminals, yards or appurtenances, or facilities or services used or required in railroad operations, but not including passenger stations",R11,–
+IV(B),Transportation Infrastructure,Heliports,R11,–
+IV(B),Transportation Infrastructure,Mooring facilities for non-commercial pleasure boats,R11,–
+IV(B),Transportation Infrastructure,Public transit or railroad electric substations,R11,○
+IV(B),Transportation Infrastructure,"Public transit yards, including #accessory# motor fuel pumps",R11,–
+IV(B),Transportation Infrastructure,Railroad or transit rights-of-way,R11,●
+IV(B),Transportation Infrastructure,Railroad passenger stations,R11,○
+IV(B),Transportation Infrastructure,Seaplane bases,R11,○
+IV(B),Transportation Infrastructure,Truck weighing stations,R11,–
+IV(C),Renewable Energy and Green Infrastructure,#Energy infrastructure equipment#,R11,●S     P
+IV(C),Renewable Energy and Green Infrastructure,Public bicycle and micromobility parking,R11,–
+IV(C),Renewable Energy and Green Infrastructure,"Recycling, or organic material, receiving",R11,–
+V,Transient Accommodations,#Motels#,R11,–
+V,Transient Accommodations,Overnight camps,R11,○
+V,Transient Accommodations,#Tourist cabins#,R11,–
+V,Transient Accommodations,#Transient hotels#,R11,–
+VI Retail,Motor Vehicle and Parts Dealer (441),Automobile dealers (4411),R11,–
+VI Retail,Motor Vehicle and Parts Dealer (441),Boat dealers (441222),R11,–
+VI Retail,Motor Vehicle and Parts Dealer (441),All other motor vehicle dealers (in 4412),R11,–
+VI Retail,Motor Vehicle and Parts Dealer (441),"Automotive parts, accessories and tire retailers (4413)",R11,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),"Lumber yards, retail (in 444180)",R11,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),All other building material and supplies dealers (in 4441),R11,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),Lawn and garden equipment and supplies retailers (4442),R11,–
+VI Retail,Food and Beverage Retailers (445),Grocery and convenience retailers (4451),R11,–
+VI Retail,Food and Beverage Retailers (445),Specialty food retailers (4452),R11,–
+VI Retail,Food and Beverage Retailers (445),"Beer, wine and liquor retailers (4453)",R11,–
+VI Retail,"Furniture, Home Furnishings, Electronics, and Appliance Retailers (449)",Furniture and home furnishing retailers (4491),R11,–
+VI Retail,"Furniture, Home Furnishings, Electronics, and Appliance Retailers (449)",Electronics and appliance retailers (4492),R11,–
+VI Retail,General Merchandise Retailers (455),Department stores (4551),R11,–
+VI Retail,General Merchandise Retailers (455),"Warehouse clubs, supercenters, and other general merchandise retailers (4552)",R11,–
+VI Retail,Health and Personal Care Retailers (456),Health and personal care retailers (4561),R11,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),#Automotive service stations#,R11,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Electric vehicle charging and battery swapping,R11,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Boat fuel sales,R11,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Fuel dealers (4572),R11,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)",Clothing and clothing accessories retailers (4581),R11,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)",Shoe retailers (4582),R11,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)","Jewelry, luggage, and leather goods retailers (4583)",R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Sporting goods retailers (45911),R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",All other hobby and musical instrument retailers (in 4591),R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Book retailers,R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",News dealers,R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Florists (4593),R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)","Office supplies, stationary, and gift retailers (4594)",R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Used merchandise retailers (4595),R11,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Miscellaneous retailers (4599),R11,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Postal service (4911),R11,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Couriers and express delivery services (4921),R11,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Local messengers and local delivery (4922),R11,–
+VI Services,Telecommunications (517),Wired and wireless telecommunications (5171),R11,–
+VI Services,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (518)","Computing infrastructure providers, data processing, web hosting, and related services (5182)",R11,–
+VI Services,Credit Intermediation and Related Activities (522),"Savings, loan and other financial services (5221, 5222 and 5223)",R11,–
+VI Services,"Securities, Commodity Contracts, and Other Financial Investments and Related Activities (523)","Securities, commodity contracts, and other financial investments and related activities (5231, 5232 and 5239)",R11,–
+VI Services,Insurance Carriers and Related Activities (524),Insurance carriers and related activities (5241 and 5242),R11,–
+VI Services,"Funds, Trusts and Other Financial Vehicles (525)","Funds, trusts and other financial vehicles (5251 and 5259)",R11,–
+VI Services,Real Estate (531),"Real estate (5311, 5312, and 5313)",R11,–
+VI Services,Rental and Leasing Services (532),Automotive equipment rental and leasing (5321),R11,–
+VI Services,Rental and Leasing Services (532),Consumer electronics and appliances rental (53221),R11,–
+VI Services,Rental and Leasing Services (532),Recreational goods rental (532284),R11,–
+VI Services,Rental and Leasing Services (532),All other consumer goods rentals (in 5322),R11,–
+VI Services,Rental and Leasing Services (532),General rental centers (5323),R11,–
+VI Services,Rental and Leasing Services (532),Commercial and industrial machinery and equipment rental and leasing (5324),R11,–
+VI Services,"Professional, Scientific, and Technical Services (541)",Veterinary services (54194),R11,–
+VI Services,"Professional, Scientific, and Technical Services (541)","All other professional, scientific, and technical services (in 541)",R11,–
+VI Services,Management of Companies and Enterprises (551),Management of companies and enterprises (5511),R11,–
+VI Services,Administrative and Support Services (561),Travel and reservation services (5615),R11,–
+VI Services,Administrative and Support Services (561),Carpet and upholstery cleaning services (56174),R11,–
+VI Services,Administrative and Support Services (561),All other services to buildings and dwellings (in 5617),R11,–
+VI Services,Administrative and Support Services (561),All other administrative and support services (in 561),R11,–
+VI Services,Educational Services (611),Business schools and computer and management training (6114),R11,–
+VI Services,Educational Services (611),Technical and trade schools (6115),R11,–
+VI Services,Educational Services (611),All other schools and instruction (6116 and 6117),R11,–
+VI Services,Food Services and Drinking Places (722),Special food services (7223),R11,–
+VI Services,Food Services and Drinking Places (722),Eating or drinking establishments (7224 and 7225),R11,–
+VI Services,Repair and Maintenance (811),#Heavy motor vehicle repair and maintenance shops#,R11,–
+VI Services,Repair and Maintenance (811),#Light motor vehicle repair and maintenance shops#,R11,–
+VI Services,Repair and Maintenance (811),Car washes (811192),R11,–
+VI Services,Repair and Maintenance (811),Electronic and precision equipment repair and maintenance (8112),R11,–
+VI Services,Repair and Maintenance (811),Commercial and industrial machinery and equipment repair and maintenance (8113),R11,–
+VI Services,Repair and Maintenance (811),Bicycle repair,R11,–
+VI Services,Repair and Maintenance (811),Recreational boat repair,R11,–
+VI Services,Repair and Maintenance (811),Home and garden equipment and appliance repair and maintenance (81141),R11,–
+VI Services,Repair and Maintenance (811),All other personal and household goods repair and maintenance (in 8114),R11,–
+VI Services,Personal and Laundry Services (812),#Health and fitness establishments#,R11,–
+VI Services,Personal and Laundry Services (812),All other personal care services (in 8121),R11,–
+VI Services,Personal and Laundry Services (812),Funeral homes and funeral services (81221),R11,–
+VI Services,Personal and Laundry Services (812),Crematoriums,R11,–
+VI Services,Personal and Laundry Services (812),Personal laundry services,R11,–
+VI Services,Personal and Laundry Services (812),Personal dry cleaning services,R11,–
+VI Services,Personal and Laundry Services (812),Industrial dry cleaning and laundry services,R11,–
+VI Services,Personal and Laundry Services (812),Pet care services (81291),R11,–
+VI Services,Personal and Laundry Services (812),All other personal services (in 8129),R11,–
+VII,Laboratories,Laboratories,R11,○
+VII,Offices,"Offices, business, professional including ambulatory diagnostic or treatment health care, or governmental",R11,○
+VIII,Amusement and Recreation Facilities,#Amusement or recreation facilities#,R11,–
+VIII,Amusement and Recreation Facilities,#Select entertainment facilities#,R11,–
+VIII,Amusement and Recreation Facilities,#Outdoor amusement parks#,R11,–
+VIII,Art Galleries and Studios,Art galleries,R11,–
+VIII,Art Galleries and Studios,"Art, music, dancing or theatrical studios",R11,–
+VIII,Art Galleries and Studios,Production or entertainment studios,R11,–
+VIII,Entertainment and Sporting Venues,Arenas or auditoriums,R11,–
+VIII,Entertainment and Sporting Venues,Drive-in theaters,R11,–
+VIII,Entertainment and Sporting Venues,Racetracks,R11,–
+VIII,Entertainment and Sporting Venues,Stadiums,R11,–
+VIII,Entertainment and Sporting Venues,Theaters,R11,–
+VIII,Other Assembly Spaces,"Banquet, function or reception halls",R11,–
+VIII,Other Assembly Spaces,Gaming facilities,R11,–
+VIII,Other Assembly Spaces,Historical exhibits,R11,–
+VIII,Other Assembly Spaces,Meeting halls,R11,–
+VIII,Other Assembly Spaces,Non-commercial clubs,R11,–
+VIII,Other Assembly Spaces,Observation decks,R11,–
+VIII,Other Assembly Spaces,Outdoor day camps,R11,○
+VIII,Other Assembly Spaces,Publicly accessible spaces,R11,–
+VIII,Other Assembly Spaces,Riding academies or stables,R11,○
+VIII,Other Assembly Spaces,Trade expositions,R11,–
+IX(A),General Storage,Building materials or contractors' yard,R11,–
+IX(A),General Storage,"Depositories for storage of office records, microfilm or computer tapes, or for data processing",R11,–
+IX(A),General Storage,Micro-distribution facility,R11,–
+IX(A),General Storage,Moving or storage offices,R11,–
+IX(A),General Storage,#Self-service storage facility#,R11,–
+IX(A),General Storage,Trucking terminals or motor freight stations,R11,–
+IX(A),General Storage,Warehouses,R11,–
+IX(A),General Storage,Wholesale establishments,R11,–
+IX(B),Specialized Storage,Coal or gas storage,R11,–
+IX(B),Specialized Storage,"Explosives storage, when not prohibited by other ordinances",R11,–
+IX(B),Specialized Storage,Grain storage,R11,–
+IX(B),Specialized Storage,"Junk or salvage yards, including auto wrecking or similar establishments",R11,–
+IX(B),Specialized Storage,Lumber yard,R11,–
+IX(B),Specialized Storage,"Manure, peat or topsoil storage",R11,–
+IX(B),Specialized Storage,"Petroleum or petroleum products, storage or handling",R11,–
+IX(B),Specialized Storage,Refrigerating plants,R11,–
+IX(B),Specialized Storage,"Scrap metal, junk, paper or rags storage, sorting, or baling",R11,–
+IX(C),Vehicle Storage,Boat storage,R11,–
+IX(C),Vehicle Storage,"Commercial or public vehicle storage, including #accessory# motor fuel pumps",R11,–
+IX(C),Vehicle Storage,Dead storage of motor vehicles,R11,–
+IX(C),Vehicle Storage,#Public parking garages# or #public parking lots#,R11,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R11,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R11,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R11,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R11,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R11,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R11,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R11,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing (in 3121),R11,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R11,–
+X,Textile & Textile Product Mills (313 - 314),Textile mills (313),R11,–
+X,Textile & Textile Product Mills (313 - 314),Textile product mills (314),R11,–
+X,Apparel Manufacturing (315),Apparel manufacturing (315),R11,–
+X,Leather and Allied Product Manufacturing (316),Leather and hide tanning and finishing (3161),R11,–
+X,Leather and Allied Product Manufacturing (316),Footwear manufacturing (3162),R11,–
+X,Leather and Allied Product Manufacturing (316),Other leather and allied product manufacturing (3169),R11,–
+X,Wood Product Manufacturing (321),Sawmills and wood preservation (3211),R11,–
+X,Wood Product Manufacturing (321),"Veneer, plywood, and engineered wood product manufacturing (3212)",R11,–
+X,Wood Product Manufacturing (321),Other wood product manufacturing (3219),R11,–
+X,Paper Manufacturing (322),"Pulp, paper, and paperboard mills (3221)",R11,–
+X,Paper Manufacturing (322),Stationary product manufacturing (32223),R11,–
+X,Paper Manufacturing (322),All other converted paper product manufacturing (in 3222),R11,–
+X,Printing and Related Support Activities (323),Printing and related support activities (3231),R11,–
+X,Petroleum and Coal Products Manufacturing (324),Petroleum and coal products manufacturing (3241),R11,–
+X,Chemical Manufacturing (325),Pharmaceutical and medicine manufacturing (3254),R11,–
+X,Chemical Manufacturing (325),Soap and other detergent manufacturing (325611),R11,–
+X,Chemical Manufacturing (325),"All other soap, cleaning compound and toilet preparation manufacturing (in 3256)",R11,–
+X,Chemical Manufacturing (325),All other chemical manufacturing (in 325),R11,–
+X,Plastics and Rubber Products Manufacturing (326),Plastics and rubber products manufacturing (326),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),Clay building material and refractories manufacturing (32712),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other clay product and refractory manufacturing (in 3271),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),Flat glass manufacturing (327211),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),Other pressed and blown glass and glassware manufacturing (327212),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other glass and glass product manufacturing (in 3272),R11,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other nonmetallic mineral product manufacturing (in 327),R11,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),Primary metal manufacturing (331),R11,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),Cutlery and handtool manufacturing (3322),R11,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),All other fabricated metal product manufacturing (in 332),R11,–
+X,Machinery Manufacturing (333),"Agriculture, construction and mining machinery manufacturing (3331)",R11,–
+X,Machinery Manufacturing (333),All other machinery manufacturing (in 333),R11,–
+X,Computer and Electronic Product Manufacturing (334),Computer and peripheral equipment manufacturing (334),R11,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Electric lighting equipment manufacturing (3351),R11,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Small electrical appliance manufacturing (33521),R11,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Major household appliance manufacturing (33522),R11,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",All other electrical equipment and component manufacturing (in 335),R11,–
+X,Transportation Equipment Manufacturing (336),Transportation equipment manufacturing (336),R11,–
+X,Furniture and Related Product Manufacturing (337),Furniture and related product manufacturing (337),R11,–
+X,Miscellaneous Manufacturing (339),Medical equipment and supplies manufacturing (3391),R11,–
+X,Miscellaneous Manufacturing (339),Other miscellaneous manufacturing (3399),R11,–
+I,Agriculture,"Agricultural #uses#, including greenhouses, nurseries or truck gardens",R12,●P
+I,Open Uses,Cemeteries,R12,●
+I,Open Uses,Golf courses,R12,●
+I,Open Uses,Outdoor racket courts,R12,●P
+I,Open Uses,Outdoor skating rinks,R12,●P
+I,Open Uses,#Public parks# or playgrounds or private parks,R12,●
+I,Open Uses,"Sand, gravel or clay pits",R12,○
+II,Residential Uses,#Single-family residence# #Detached#,R12,●
+II,Residential Uses,#Single-family residence# Other types,R12,●
+II,Residential Uses,#Two-family residence# #Detached#,R12,●
+II,Residential Uses,#Two-family residence# Other types,R12,●
+II,Residential Uses,"All other types of #residences#, including #apartment hotels# and #affordable independent residences for seniors#",R12,●
+III(A),Educational Institutions,College or school student dormitories and fraternity or sorority student houses,R12,●
+III(A),Faith-based Institutions and Facilities,"Monasteries, convents or novitiates",R12,●
+III(A),Faith-based Institutions and Facilities,Rectories or parish houses with sleeping accommodations,R12,●
+III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,R12,●
+III(A),Health Institutions and Facilities,#Long-term care facilities#,R12,●P
+III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,R12,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,R12,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,R12,●P
+III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,R12,●S
+III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",R12,●
+III(B),Educational Institutions,#Schools#,R12,●
+III(B),Faith-based Institutions and Facilities,Houses of worship,R12,●
+III(B),Faith-based Institutions and Facilities,Parish houses without sleeping accommodations,R12,●
+III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accommodations,R12,●
+III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,R12,●P
+III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",R12,●
+III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",R12,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,R12,●
+III(B),Other Institutions and Facilities,Libraries,R12,●
+III(B),Other Institutions and Facilities,Museums,R12,●
+III(B),Other Institutions and Facilities,Non-commercial art galleries,R12,●
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,R12,●P
+III(B),Other Institutions and Facilities,Non-commercial recreation centers,R12,●
+III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",R12,●S
+III(B),Other Institutions and Facilities,Welfare centers,R12,●
+IV(A),Public Service Buildings,Court houses,R12,–
+IV(A),Public Service Buildings,Fire or police stations,R12,○
+IV(A),Other Facilities,Prisons,R12,–
+IV(B),Communication Infrastructure,"Radio or television towers, non-#accessory#",R12,○
+IV(B),Communication Infrastructure,Telephone exchanges or other communications equipment structures,R12,○
+IV(B),Electric and Gas Infrastructure,Electric power or steam generating plants,R12,–
+IV(B),Electric and Gas Infrastructure,Electric utility substations,R12,○
+IV(B),Electric and Gas Infrastructure,Gas utility substations,R12,○
+IV(B),Electric and Gas Infrastructure,Public utility stations for oil or gas metering or regulating,R12,○
+IV(B),Electric and Gas Infrastructure,"Terminal facilities at river crossings for access to electric, gas, or steam lines",R12,○
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Composting,R12,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure","Dumps, recycling or material recovery facilities, marine transfer stations for garbage or slag piles",R12,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure","Incineration or reduction of garbage, offal or dead animals",R12,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Radioactive waste disposal services involving the handling or storage of radioactive waste,R12,–
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Sewage disposal plants,R12,○
+IV(B),"Sewage, Storm Water and Waste Infrastructure",Water or sewage pumping stations,R12,○
+IV(B),Transportation Infrastructure,Airports,R12,–
+IV(B),Transportation Infrastructure,Boat launching facilities for non-commercial pleasure boats,R12,–
+IV(B),Transportation Infrastructure,Bus stations,R12,–
+IV(B),Transportation Infrastructure,Docks,R12,○
+IV(B),Transportation Infrastructure,"Freight terminals, yards or appurtenances, or facilities or services used or required in railroad operations, but not including passenger stations",R12,–
+IV(B),Transportation Infrastructure,Heliports,R12,–
+IV(B),Transportation Infrastructure,Mooring facilities for non-commercial pleasure boats,R12,–
+IV(B),Transportation Infrastructure,Public transit or railroad electric substations,R12,○
+IV(B),Transportation Infrastructure,"Public transit yards, including #accessory# motor fuel pumps",R12,–
+IV(B),Transportation Infrastructure,Railroad or transit rights-of-way,R12,●
+IV(B),Transportation Infrastructure,Railroad passenger stations,R12,○
+IV(B),Transportation Infrastructure,Seaplane bases,R12,○
+IV(B),Transportation Infrastructure,Truck weighing stations,R12,–
+IV(C),Renewable Energy and Green Infrastructure,#Energy infrastructure equipment#,R12,●S     P
+IV(C),Renewable Energy and Green Infrastructure,Public bicycle and micromobility parking,R12,–
+IV(C),Renewable Energy and Green Infrastructure,"Recycling, or organic material, receiving",R12,–
+V,Transient Accommodations,#Motels#,R12,–
+V,Transient Accommodations,Overnight camps,R12,○
+V,Transient Accommodations,#Tourist cabins#,R12,–
+V,Transient Accommodations,#Transient hotels#,R12,–
+VI Retail,Motor Vehicle and Parts Dealer (441),Automobile dealers (4411),R12,–
+VI Retail,Motor Vehicle and Parts Dealer (441),Boat dealers (441222),R12,–
+VI Retail,Motor Vehicle and Parts Dealer (441),All other motor vehicle dealers (in 4412),R12,–
+VI Retail,Motor Vehicle and Parts Dealer (441),"Automotive parts, accessories and tire retailers (4413)",R12,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),"Lumber yards, retail (in 444180)",R12,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),All other building material and supplies dealers (in 4441),R12,–
+VI Retail,Building Material and Garden Equipment and Supplies Dealer (444),Lawn and garden equipment and supplies retailers (4442),R12,–
+VI Retail,Food and Beverage Retailers (445),Grocery and convenience retailers (4451),R12,–
+VI Retail,Food and Beverage Retailers (445),Specialty food retailers (4452),R12,–
+VI Retail,Food and Beverage Retailers (445),"Beer, wine and liquor retailers (4453)",R12,–
+VI Retail,"Furniture, Home Furnishings, Electronics, and Appliance Retailers (449)",Furniture and home furnishing retailers (4491),R12,–
+VI Retail,"Furniture, Home Furnishings, Electronics, and Appliance Retailers (449)",Electronics and appliance retailers (4492),R12,–
+VI Retail,General Merchandise Retailers (455),Department stores (4551),R12,–
+VI Retail,General Merchandise Retailers (455),"Warehouse clubs, supercenters, and other general merchandise retailers (4552)",R12,–
+VI Retail,Health and Personal Care Retailers (456),Health and personal care retailers (4561),R12,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),#Automotive service stations#,R12,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Electric vehicle charging and battery swapping,R12,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Boat fuel sales,R12,–
+VI Retail,Gasoline Stations and Fuel Dealers (457),Fuel dealers (4572),R12,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)",Clothing and clothing accessories retailers (4581),R12,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)",Shoe retailers (4582),R12,–
+VI Retail,"Clothing, Clothing Accessories, Shoe and Jewelry Retailers (458)","Jewelry, luggage, and leather goods retailers (4583)",R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Sporting goods retailers (45911),R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",All other hobby and musical instrument retailers (in 4591),R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Book retailers,R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",News dealers,R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Florists (4593),R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)","Office supplies, stationary, and gift retailers (4594)",R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Used merchandise retailers (4595),R12,–
+VI Retail,"Sporting Goods, Hobby, Musical Instrument, Book and Miscellaneous Retailers (459)",Miscellaneous retailers (4599),R12,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Postal service (4911),R12,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Couriers and express delivery services (4921),R12,–
+VI Services,Postal Service (491) / Couriers and Messengers (492),Local messengers and local delivery (4922),R12,–
+VI Services,Telecommunications (517),Wired and wireless telecommunications (5171),R12,–
+VI Services,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services (518)","Computing infrastructure providers, data processing, web hosting, and related services (5182)",R12,–
+VI Services,Credit Intermediation and Related Activities (522),"Savings, loan and other financial services (5221, 5222 and 5223)",R12,–
+VI Services,"Securities, Commodity Contracts, and Other Financial Investments and Related Activities (523)","Securities, commodity contracts, and other financial investments and related activities (5231, 5232 and 5239)",R12,–
+VI Services,Insurance Carriers and Related Activities (524),Insurance carriers and related activities (5241 and 5242),R12,–
+VI Services,"Funds, Trusts and Other Financial Vehicles (525)","Funds, trusts and other financial vehicles (5251 and 5259)",R12,–
+VI Services,Real Estate (531),"Real estate (5311, 5312, and 5313)",R12,–
+VI Services,Rental and Leasing Services (532),Automotive equipment rental and leasing (5321),R12,–
+VI Services,Rental and Leasing Services (532),Consumer electronics and appliances rental (53221),R12,–
+VI Services,Rental and Leasing Services (532),Recreational goods rental (532284),R12,–
+VI Services,Rental and Leasing Services (532),All other consumer goods rentals (in 5322),R12,–
+VI Services,Rental and Leasing Services (532),General rental centers (5323),R12,–
+VI Services,Rental and Leasing Services (532),Commercial and industrial machinery and equipment rental and leasing (5324),R12,–
+VI Services,"Professional, Scientific, and Technical Services (541)",Veterinary services (54194),R12,–
+VI Services,"Professional, Scientific, and Technical Services (541)","All other professional, scientific, and technical services (in 541)",R12,–
+VI Services,Management of Companies and Enterprises (551),Management of companies and enterprises (5511),R12,–
+VI Services,Administrative and Support Services (561),Travel and reservation services (5615),R12,–
+VI Services,Administrative and Support Services (561),Carpet and upholstery cleaning services (56174),R12,–
+VI Services,Administrative and Support Services (561),All other services to buildings and dwellings (in 5617),R12,–
+VI Services,Administrative and Support Services (561),All other administrative and support services (in 561),R12,–
+VI Services,Educational Services (611),Business schools and computer and management training (6114),R12,–
+VI Services,Educational Services (611),Technical and trade schools (6115),R12,–
+VI Services,Educational Services (611),All other schools and instruction (6116 and 6117),R12,–
+VI Services,Food Services and Drinking Places (722),Special food services (7223),R12,–
+VI Services,Food Services and Drinking Places (722),Eating or drinking establishments (7224 and 7225),R12,–
+VI Services,Repair and Maintenance (811),#Heavy motor vehicle repair and maintenance shops#,R12,–
+VI Services,Repair and Maintenance (811),#Light motor vehicle repair and maintenance shops#,R12,–
+VI Services,Repair and Maintenance (811),Car washes (811192),R12,–
+VI Services,Repair and Maintenance (811),Electronic and precision equipment repair and maintenance (8112),R12,–
+VI Services,Repair and Maintenance (811),Commercial and industrial machinery and equipment repair and maintenance (8113),R12,–
+VI Services,Repair and Maintenance (811),Bicycle repair,R12,–
+VI Services,Repair and Maintenance (811),Recreational boat repair,R12,–
+VI Services,Repair and Maintenance (811),Home and garden equipment and appliance repair and maintenance (81141),R12,–
+VI Services,Repair and Maintenance (811),All other personal and household goods repair and maintenance (in 8114),R12,–
+VI Services,Personal and Laundry Services (812),#Health and fitness establishments#,R12,–
+VI Services,Personal and Laundry Services (812),All other personal care services (in 8121),R12,–
+VI Services,Personal and Laundry Services (812),Funeral homes and funeral services (81221),R12,–
+VI Services,Personal and Laundry Services (812),Crematoriums,R12,–
+VI Services,Personal and Laundry Services (812),Personal laundry services,R12,–
+VI Services,Personal and Laundry Services (812),Personal dry cleaning services,R12,–
+VI Services,Personal and Laundry Services (812),Industrial dry cleaning and laundry services,R12,–
+VI Services,Personal and Laundry Services (812),Pet care services (81291),R12,–
+VI Services,Personal and Laundry Services (812),All other personal services (in 8129),R12,–
+VII,Laboratories,Laboratories,R12,○
+VII,Offices,"Offices, business, professional including ambulatory diagnostic or treatment health care, or governmental",R12,○
+VIII,Amusement and Recreation Facilities,#Amusement or recreation facilities#,R12,–
+VIII,Amusement and Recreation Facilities,#Select entertainment facilities#,R12,–
+VIII,Amusement and Recreation Facilities,#Outdoor amusement parks#,R12,–
+VIII,Art Galleries and Studios,Art galleries,R12,–
+VIII,Art Galleries and Studios,"Art, music, dancing or theatrical studios",R12,–
+VIII,Art Galleries and Studios,Production or entertainment studios,R12,–
+VIII,Entertainment and Sporting Venues,Arenas or auditoriums,R12,–
+VIII,Entertainment and Sporting Venues,Drive-in theaters,R12,–
+VIII,Entertainment and Sporting Venues,Racetracks,R12,–
+VIII,Entertainment and Sporting Venues,Stadiums,R12,–
+VIII,Entertainment and Sporting Venues,Theaters,R12,–
+VIII,Other Assembly Spaces,"Banquet, function or reception halls",R12,–
+VIII,Other Assembly Spaces,Gaming facilities,R12,–
+VIII,Other Assembly Spaces,Historical exhibits,R12,–
+VIII,Other Assembly Spaces,Meeting halls,R12,–
+VIII,Other Assembly Spaces,Non-commercial clubs,R12,–
+VIII,Other Assembly Spaces,Observation decks,R12,–
+VIII,Other Assembly Spaces,Outdoor day camps,R12,○
+VIII,Other Assembly Spaces,Publicly accessible spaces,R12,–
+VIII,Other Assembly Spaces,Riding academies or stables,R12,○
+VIII,Other Assembly Spaces,Trade expositions,R12,–
+IX(A),General Storage,Building materials or contractors' yard,R12,–
+IX(A),General Storage,"Depositories for storage of office records, microfilm or computer tapes, or for data processing",R12,–
+IX(A),General Storage,Micro-distribution facility,R12,–
+IX(A),General Storage,Moving or storage offices,R12,–
+IX(A),General Storage,#Self-service storage facility#,R12,–
+IX(A),General Storage,Trucking terminals or motor freight stations,R12,–
+IX(A),General Storage,Warehouses,R12,–
+IX(A),General Storage,Wholesale establishments,R12,–
+IX(B),Specialized Storage,Coal or gas storage,R12,–
+IX(B),Specialized Storage,"Explosives storage, when not prohibited by other ordinances",R12,–
+IX(B),Specialized Storage,Grain storage,R12,–
+IX(B),Specialized Storage,"Junk or salvage yards, including auto wrecking or similar establishments",R12,–
+IX(B),Specialized Storage,Lumber yard,R12,–
+IX(B),Specialized Storage,"Manure, peat or topsoil storage",R12,–
+IX(B),Specialized Storage,"Petroleum or petroleum products, storage or handling",R12,–
+IX(B),Specialized Storage,Refrigerating plants,R12,–
+IX(B),Specialized Storage,"Scrap metal, junk, paper or rags storage, sorting, or baling",R12,–
+IX(C),Vehicle Storage,Boat storage,R12,–
+IX(C),Vehicle Storage,"Commercial or public vehicle storage, including #accessory# motor fuel pumps",R12,–
+IX(C),Vehicle Storage,Dead storage of motor vehicles,R12,–
+IX(C),Vehicle Storage,#Public parking garages# or #public parking lots#,R12,–
+X,Food Manufacturing (311),Animal food manufacturing (3111),R12,–
+X,Food Manufacturing (311),Sugar manufacturing (31131),R12,–
+X,Food Manufacturing (311),All other sugar and confectionary product manufacturing (in 3113),R12,–
+X,Food Manufacturing (311),Animal slaughtering and processing (3116),R12,–
+X,Food Manufacturing (311),Seafood product preparation and packaging (3117),R12,–
+X,Food Manufacturing (311),All other food manufacturing (in 311),R12,–
+X,Beverage and Tobacco Product Manufacturing (312),Distilleries (31214),R12,–
+X,Beverage and Tobacco Product Manufacturing (312),All other beverage manufacturing (in 3121),R12,–
+X,Beverage and Tobacco Product Manufacturing (312),Tobacco manufacturing (3122),R12,–
+X,Textile & Textile Product Mills (313 - 314),Textile mills (313),R12,–
+X,Textile & Textile Product Mills (313 - 314),Textile product mills (314),R12,–
+X,Apparel Manufacturing (315),Apparel manufacturing (315),R12,–
+X,Leather and Allied Product Manufacturing (316),Leather and hide tanning and finishing (3161),R12,–
+X,Leather and Allied Product Manufacturing (316),Footwear manufacturing (3162),R12,–
+X,Leather and Allied Product Manufacturing (316),Other leather and allied product manufacturing (3169),R12,–
+X,Wood Product Manufacturing (321),Sawmills and wood preservation (3211),R12,–
+X,Wood Product Manufacturing (321),"Veneer, plywood, and engineered wood product manufacturing (3212)",R12,–
+X,Wood Product Manufacturing (321),Other wood product manufacturing (3219),R12,–
+X,Paper Manufacturing (322),"Pulp, paper, and paperboard mills (3221)",R12,–
+X,Paper Manufacturing (322),Stationary product manufacturing (32223),R12,–
+X,Paper Manufacturing (322),All other converted paper product manufacturing (in 3222),R12,–
+X,Printing and Related Support Activities (323),Printing and related support activities (3231),R12,–
+X,Petroleum and Coal Products Manufacturing (324),Petroleum and coal products manufacturing (3241),R12,–
+X,Chemical Manufacturing (325),Pharmaceutical and medicine manufacturing (3254),R12,–
+X,Chemical Manufacturing (325),Soap and other detergent manufacturing (325611),R12,–
+X,Chemical Manufacturing (325),"All other soap, cleaning compound and toilet preparation manufacturing (in 3256)",R12,–
+X,Chemical Manufacturing (325),All other chemical manufacturing (in 325),R12,–
+X,Plastics and Rubber Products Manufacturing (326),Plastics and rubber products manufacturing (326),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),Clay building material and refractories manufacturing (32712),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other clay product and refractory manufacturing (in 3271),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),Flat glass manufacturing (327211),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),Other pressed and blown glass and glassware manufacturing (327212),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other glass and glass product manufacturing (in 3272),R12,–
+X,Nonmetallic Mineral Product Manufacturing (327),All other nonmetallic mineral product manufacturing (in 327),R12,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),Primary metal manufacturing (331),R12,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),Cutlery and handtool manufacturing (3322),R12,–
+X,Primary Metal Manufacturing and Fabricated Metal Product Manufacturing (331 - 332),All other fabricated metal product manufacturing (in 332),R12,–
+X,Machinery Manufacturing (333),"Agriculture, construction and mining machinery manufacturing (3331)",R12,–
+X,Machinery Manufacturing (333),All other machinery manufacturing (in 333),R12,–
+X,Computer and Electronic Product Manufacturing (334),Computer and peripheral equipment manufacturing (334),R12,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Electric lighting equipment manufacturing (3351),R12,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Small electrical appliance manufacturing (33521),R12,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",Major household appliance manufacturing (33522),R12,–
+X,"Electrical Equipment, Appliance, and Component Manufacturing (335)",All other electrical equipment and component manufacturing (in 335),R12,–
+X,Transportation Equipment Manufacturing (336),Transportation equipment manufacturing (336),R12,–
+X,Furniture and Related Product Manufacturing (337),Furniture and related product manufacturing (337),R12,–
+X,Miscellaneous Manufacturing (339),Medical equipment and supplies manufacturing (3391),R12,–
+X,Miscellaneous Manufacturing (339),Other miscellaneous manufacturing (3399),R12,–
 I,Agriculture,"Agricultural #uses#, including greenhouses, nurseries or truck gardens",C1,●S     P     U
 I,Open Uses,Cemeteries,C1,●
 I,Open Uses,Golf courses,C1,●
@@ -2417,8 +2909,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C1,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C1,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C1,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C1,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C1,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C1,●S
-III(A),Other Institutions and Facilities,Settlement houses,C1,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C1,●
 III(B),Educational Institutions,#Schools#,C1,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C1,●
@@ -2427,11 +2920,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C1,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C1,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C1,●
-III(B),Other Institutions and Facilities,Community centers,C1,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C1,●
 III(B),Other Institutions and Facilities,Libraries,C1,●
 III(B),Other Institutions and Facilities,Museums,C1,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C1,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C1,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C1,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C1,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C1,●S
 III(B),Other Institutions and Facilities,Welfare centers,C1,●
@@ -2657,8 +3150,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C2,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C2,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C2,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C2,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C2,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C2,●S
-III(A),Other Institutions and Facilities,Settlement houses,C2,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C2,●
 III(B),Educational Institutions,#Schools#,C2,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C2,●
@@ -2667,11 +3161,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C2,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C2,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C2,●
-III(B),Other Institutions and Facilities,Community centers,C2,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C2,●
 III(B),Other Institutions and Facilities,Libraries,C2,●
 III(B),Other Institutions and Facilities,Museums,C2,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C2,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C2,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C2,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C2,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C2,●S
 III(B),Other Institutions and Facilities,Welfare centers,C2,●
@@ -2897,8 +3391,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C3,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C3,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C3,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C3,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C3,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C3,●S
-III(A),Other Institutions and Facilities,Settlement houses,C3,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C3,●
 III(B),Educational Institutions,#Schools#,C3,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C3,●
@@ -2907,11 +3402,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C3,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C3,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C3,●
-III(B),Other Institutions and Facilities,Community centers,C3,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C3,●
 III(B),Other Institutions and Facilities,Libraries,C3,●
 III(B),Other Institutions and Facilities,Museums,C3,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C3,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C3,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C3,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C3,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C3,●S
 III(B),Other Institutions and Facilities,Welfare centers,C3,●
@@ -3137,8 +3632,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C4,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C4,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C4,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C4,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C4,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C4,●S
-III(A),Other Institutions and Facilities,Settlement houses,C4,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C4,●
 III(B),Educational Institutions,#Schools#,C4,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C4,●
@@ -3147,11 +3643,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C4,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C4,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C4,●
-III(B),Other Institutions and Facilities,Community centers,C4,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C4,●
 III(B),Other Institutions and Facilities,Libraries,C4,●
 III(B),Other Institutions and Facilities,Museums,C4,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C4,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C4,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C4,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C4,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C4,●S
 III(B),Other Institutions and Facilities,Welfare centers,C4,●
@@ -3377,8 +3873,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C5,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C5,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C5,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C5,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C5,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C5,●S
-III(A),Other Institutions and Facilities,Settlement houses,C5,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C5,●
 III(B),Educational Institutions,#Schools#,C5,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C5,●
@@ -3387,11 +3884,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C5,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C5,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C5,●
-III(B),Other Institutions and Facilities,Community centers,C5,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C5,●
 III(B),Other Institutions and Facilities,Libraries,C5,●
 III(B),Other Institutions and Facilities,Museums,C5,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C5,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C5,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C5,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C5,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C5,●S
 III(B),Other Institutions and Facilities,Welfare centers,C5,●
@@ -3617,8 +4114,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C6,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C6,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C6,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C6,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C6,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C6,●S
-III(A),Other Institutions and Facilities,Settlement houses,C6,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C6,●
 III(B),Educational Institutions,#Schools#,C6,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C6,●
@@ -3627,11 +4125,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C6,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C6,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C6,●
-III(B),Other Institutions and Facilities,Community centers,C6,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C6,●
 III(B),Other Institutions and Facilities,Libraries,C6,●
 III(B),Other Institutions and Facilities,Museums,C6,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C6,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C6,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C6,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C6,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C6,●S
 III(B),Other Institutions and Facilities,Welfare centers,C6,●
@@ -3857,8 +4355,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C7,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C7,●P
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C7,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C7,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C7,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C7,●S
-III(A),Other Institutions and Facilities,Settlement houses,C7,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C7,●
 III(B),Educational Institutions,#Schools#,C7,●
 III(B),Faith-based Institutions and Facilities,Houses of worship,C7,●
@@ -3867,11 +4366,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C7,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C7,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C7,●
-III(B),Other Institutions and Facilities,Community centers,C7,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C7,●
 III(B),Other Institutions and Facilities,Libraries,C7,●
 III(B),Other Institutions and Facilities,Museums,C7,●
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C7,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C7,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C7,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C7,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C7,●S
 III(B),Other Institutions and Facilities,Welfare centers,C7,●
@@ -4097,8 +4596,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,C8,●
 III(A),Health Institutions and Facilities,#Long-term care facilities#,C8,–
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,C8,●P
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,C8,●
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,C8,●P
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,C8,–
-III(A),Other Institutions and Facilities,Settlement houses,C8,●
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",C8,–
 III(B),Educational Institutions,#Schools#,C8,○
 III(B),Faith-based Institutions and Facilities,Houses of worship,C8,●
@@ -4107,11 +4607,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,C8,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",C8,●
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",C8,●
-III(B),Other Institutions and Facilities,Community centers,C8,●
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,C8,●
 III(B),Other Institutions and Facilities,Libraries,C8,–
 III(B),Other Institutions and Facilities,Museums,C8,–
 III(B),Other Institutions and Facilities,Non-commercial art galleries,C8,●
-III(B),Other Institutions and Facilities,Non-commercial clubs,C8,●P
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,C8,●P
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,C8,●
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",C8,●S
 III(B),Other Institutions and Facilities,Welfare centers,C8,●
@@ -4337,8 +4837,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,M1,–
 III(A),Health Institutions and Facilities,#Long-term care facilities#,M1,–
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,M1,–
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,M1,–
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,M1,–
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,M1,–
-III(A),Other Institutions and Facilities,Settlement houses,M1,–
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",M1,–
 III(B),Educational Institutions,#Schools#,M1,○
 III(B),Faith-based Institutions and Facilities,Houses of worship,M1,●
@@ -4347,11 +4848,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,M1,●P
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",M1,●P
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",M1,●P
-III(B),Other Institutions and Facilities,Community centers,M1,○
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,M1,○
 III(B),Other Institutions and Facilities,Libraries,M1,○
 III(B),Other Institutions and Facilities,Museums,M1,●P
 III(B),Other Institutions and Facilities,Non-commercial art galleries,M1,○
-III(B),Other Institutions and Facilities,Non-commercial clubs,M1,○
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,M1,○
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,M1,○
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",M1,○
 III(B),Other Institutions and Facilities,Welfare centers,M1,○
@@ -4502,7 +5003,7 @@ IX(B),Specialized Storage,Coal or gas storage,M1,●P     U
 IX(B),Specialized Storage,"Explosives storage, when not prohibited by other ordinances",M1,●P     U
 IX(B),Specialized Storage,Grain storage,M1,●P     U
 IX(B),Specialized Storage,"Junk or salvage yards, including auto wrecking or similar establishments",M1,●P     U
-IX(B),Specialized Storage,Lumber yard,M1,●S     P     U
+IX(B),Specialized Storage,Lumber yard,M1,●P     U
 IX(B),Specialized Storage,"Manure, peat or topsoil storage",M1,●P     U
 IX(B),Specialized Storage,"Petroleum or petroleum products, storage or handling",M1,●P     U
 IX(B),Specialized Storage,Refrigerating plants,M1,●P     U
@@ -4577,8 +5078,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,M2,–
 III(A),Health Institutions and Facilities,#Long-term care facilities#,M2,–
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,M2,–
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,M2,–
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,M2,–
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,M2,–
-III(A),Other Institutions and Facilities,Settlement houses,M2,–
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",M2,–
 III(B),Educational Institutions,#Schools#,M2,–
 III(B),Faith-based Institutions and Facilities,Houses of worship,M2,–
@@ -4587,11 +5089,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,M2,–
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",M2,–
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",M2,–
-III(B),Other Institutions and Facilities,Community centers,M2,–
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,M2,–
 III(B),Other Institutions and Facilities,Libraries,M2,–
 III(B),Other Institutions and Facilities,Museums,M2,●P
 III(B),Other Institutions and Facilities,Non-commercial art galleries,M2,–
-III(B),Other Institutions and Facilities,Non-commercial clubs,M2,–
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,M2,–
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,M2,–
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",M2,–
 III(B),Other Institutions and Facilities,Welfare centers,M2,–
@@ -4742,7 +5244,7 @@ IX(B),Specialized Storage,Coal or gas storage,M2,●P     U
 IX(B),Specialized Storage,"Explosives storage, when not prohibited by other ordinances",M2,●P     U
 IX(B),Specialized Storage,Grain storage,M2,●P     U
 IX(B),Specialized Storage,"Junk or salvage yards, including auto wrecking or similar establishments",M2,●P     U
-IX(B),Specialized Storage,Lumber yard,M2,●S     P     U
+IX(B),Specialized Storage,Lumber yard,M2,●P     U
 IX(B),Specialized Storage,"Manure, peat or topsoil storage",M2,●P     U
 IX(B),Specialized Storage,"Petroleum or petroleum products, storage or handling",M2,●P     U
 IX(B),Specialized Storage,Refrigerating plants,M2,●P     U
@@ -4817,8 +5319,9 @@ III(A),Faith-based Institutions and Facilities,Rectories or parish houses with s
 III(A),Faith-based Institutions and Facilities,Seminaries with sleeping accommodations,M3,–
 III(A),Health Institutions and Facilities,#Long-term care facilities#,M3,–
 III(A),Health Institutions and Facilities,#Non-profit hospital staff dwellings#,M3,–
+III(A),Other Institutions and Facilities,Community centers or settlement houses with sleeping accommodations,M3,–
+III(A),Other Institutions and Facilities,Non-commercial clubs with sleeping accommodations,M3,–
 III(A),Other Institutions and Facilities,Philanthropic or non-profit institutions with sleeping accommodations,M3,–
-III(A),Other Institutions and Facilities,Settlement houses,M3,–
 III(B),Educational Institutions,"Colleges or universities, including professional schools but excluding business colleges or trade schools",M3,–
 III(B),Educational Institutions,#Schools#,M3,–
 III(B),Faith-based Institutions and Facilities,Houses of worship,M3,–
@@ -4827,11 +5330,11 @@ III(B),Faith-based Institutions and Facilities,Seminaries without sleeping accom
 III(B),Health Institutions and Facilities,Ambulatory diagnostic or treatment health care facilities,M3,–
 III(B),Health Institutions and Facilities,"Non-profit or voluntary hospitals and related facilities, except animal hospitals",M3,–
 III(B),Health Institutions and Facilities,"Proprietary hospitals and related facilities, except animal hospitals",M3,–
-III(B),Other Institutions and Facilities,Community centers,M3,–
+III(B),Other Institutions and Facilities,Community centers or settlement houses without sleeping accommodations,M3,–
 III(B),Other Institutions and Facilities,Libraries,M3,–
 III(B),Other Institutions and Facilities,Museums,M3,●P
 III(B),Other Institutions and Facilities,Non-commercial art galleries,M3,–
-III(B),Other Institutions and Facilities,Non-commercial clubs,M3,–
+III(B),Other Institutions and Facilities,Non-commercial clubs without sleeping accomodations,M3,–
 III(B),Other Institutions and Facilities,Non-commercial recreation centers,M3,–
 III(B),Other Institutions and Facilities,"Philanthropic or non-profit institutions without sleeping accommodations, excluding ambulatory diagnostic or treatment health care facilities",M3,–
 III(B),Other Institutions and Facilities,Welfare centers,M3,–
