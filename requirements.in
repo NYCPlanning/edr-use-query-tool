@@ -1,4 +1,5 @@
-ipykernel
-pandas
 black
+ipykernel
+marimo[recommended]
 mypy
+pandas
