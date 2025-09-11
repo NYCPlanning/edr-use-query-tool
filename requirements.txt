@@ -4,12 +4,10 @@
 #
 #    ./compile_python_packages.sh .
 #
-appnope==0.1.4
-    # via ipykernel
 asttokens==3.0.0
     # via stack-data
 black==25.1.0
-    # via -r ./requirements.in
+    # via -r requirements.in
 click==8.1.8
     # via black
 comm==0.2.2
@@ -21,7 +19,7 @@ decorator==5.2.0
 executing==2.2.0
     # via stack-data
 ipykernel==6.29.5
-    # via -r ./requirements.in
+    # via -r requirements.in
 ipython==8.32.0
     # via ipykernel
 jedi==0.19.2
@@ -37,7 +35,7 @@ matplotlib-inline==0.1.7
     #   ipykernel
     #   ipython
 mypy==1.15.0
-    # via -r ./requirements.in
+    # via -r requirements.in
 mypy-extensions==1.0.0
     # via
     #   black
@@ -51,7 +49,7 @@ packaging==24.2
     #   black
     #   ipykernel
 pandas==2.2.3
-    # via -r ./requirements.in
+    # via -r requirements.in
 parso==0.8.4
     # via jedi
 pathspec==0.12.1
@@ -86,7 +84,7 @@ six==1.17.0
     # via python-dateutil
 stack-data==0.6.3
     # via ipython
-tornado==6.4.2
+tornado==6.5.1
     # via
     #   ipykernel
     #   jupyter-client
