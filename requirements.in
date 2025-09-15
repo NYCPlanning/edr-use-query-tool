@@ -1,6 +1,7 @@
 black
 ipykernel
 marimo[recommended]
+marimo[lsp]
 mypy
 openpyxl
 pandas

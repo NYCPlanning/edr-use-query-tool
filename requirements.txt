@@ -15,10 +15,18 @@ asttokens==3.0.0
     # via stack-data
 attrs==25.3.0
     # via
+    #   cattrs
     #   jsonschema
+    #   lsprotocol
     #   referencing
 black==25.1.0
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   python-lsp-server
+cattrs==25.2.0
+    # via
+    #   lsprotocol
+    #   python-lsp-ruff
 certifi==2025.8.3
     # via
     #   httpcore
@@ -36,6 +44,8 @@ decorator==5.2.1
     # via ipython
 distro==1.9.0
     # via openai
+docstring-to-markdown==0.17
+    # via python-lsp-server
 docutils==0.22
     # via marimo
 duckdb==1.3.2
@@ -58,6 +68,8 @@ idna==3.10
     # via
     #   anyio
     #   httpx
+importlib-metadata==8.7.0
+    # via docstring-to-markdown
 ipykernel==6.30.1
     # via -r requirements.in
 ipython==9.5.0
@@ -70,6 +82,7 @@ jedi==0.19.2
     # via
     #   ipython
     #   marimo
+    #   python-lsp-server
 jinja2==3.1.6
     # via altair
 jiter==0.10.0
@@ -89,6 +102,8 @@ jupyter-core==5.8.1
     #   nbformat
 loro==1.6.0
     # via marimo
+lsprotocol==2025.0.0
+    # via python-lsp-ruff
 marimo==0.15.3
     # via -r requirements.in
 markdown==3.9
@@ -143,6 +158,8 @@ platformdirs==4.4.0
     # via
     #   black
     #   jupyter-core
+pluggy==1.6.0
+    # via python-lsp-server
 polars==1.33.1
     # via marimo
 prompt-toolkit==3.0.52
@@ -172,6 +189,14 @@ python-dateutil==2.9.0.post0
     # via
     #   jupyter-client
     #   pandas
+python-lsp-jsonrpc==1.1.2
+    # via python-lsp-server
+python-lsp-ruff==2.2.2
+    # via marimo
+python-lsp-server==1.13.1
+    # via
+    #   marimo
+    #   python-lsp-ruff
 pytz==2025.2
     # via pandas
 pyyaml==6.0.2
@@ -191,7 +216,9 @@ rpds-py==0.27.1
     #   jsonschema
     #   referencing
 ruff==0.13.0
-    # via marimo
+    # via
+    #   marimo
+    #   python-lsp-ruff
 six==1.17.0
     # via python-dateutil
 sniffio==1.3.1
@@ -223,6 +250,8 @@ traitlets==5.14.3
 typing-extensions==4.15.0
     # via
     #   altair
+    #   cattrs
+    #   docstring-to-markdown
     #   mypy
     #   openai
     #   pydantic
@@ -232,9 +261,15 @@ typing-inspection==0.4.1
     # via pydantic
 tzdata==2025.2
     # via pandas
+ujson==5.11.0
+    # via
+    #   python-lsp-jsonrpc
+    #   python-lsp-server
 uvicorn==0.35.0
     # via marimo
 wcwidth==0.2.13
     # via prompt-toolkit
 websockets==15.0.1
     # via marimo
+zipp==3.23.0
+    # via importlib-metadata
