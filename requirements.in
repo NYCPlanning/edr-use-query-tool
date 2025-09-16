@@ -5,3 +5,4 @@ marimo[lsp]
 mypy
 openpyxl
 pandas
+pyarrow

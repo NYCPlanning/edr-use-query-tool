@@ -173,7 +173,9 @@ ptyprocess==0.7.0
 pure-eval==0.2.3
     # via stack-data
 pyarrow==21.0.0
-    # via polars
+    # via
+    #   -r requirements.in
+    #   polars
 pydantic==2.11.9
     # via openai
 pydantic-core==2.33.2

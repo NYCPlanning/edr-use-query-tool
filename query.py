@@ -7,6 +7,7 @@ with app.setup:
     import marimo as mo
     import pandas as pd
     import polars as pl
+    import pyarrow
 
     # Using mo.notebook_location() to access data both locally and when running via WebAssembly (e.g. hosted on GitHub Pages)
     SOURCE_DATA_DIRECTORY = mo.notebook_location() / "output" / "for_query_tool"
