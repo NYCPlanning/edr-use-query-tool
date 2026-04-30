@@ -101,9 +101,9 @@ def _(addressed_naics_titles, uses_by_zoning_district_minimal):
         label="Zoning District: ",
         searchable=True,
     )
-
+    zr_use_names = uses_by_zoning_district_minimal[~uses_by_zoning_district_minimal["Use Name"].astype(str).str.contains("*", regex=False)]["Use Name"]
     dropdown_zr_uses = mo.ui.dropdown(
-        uses_by_zoning_district_minimal["Use Name"],
+        zr_use_names,
         label="Use Name: ",
         searchable=True,
     )
