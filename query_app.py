@@ -101,40 +101,52 @@ def _(addressed_naics_titles, uses_by_zoning_district_minimal):
         label="Zoning District: ",
         searchable=True,
     )
-
+    zr_use_names = uses_by_zoning_district_minimal[
+        ~uses_by_zoning_district_minimal["Use Name"]
+        .astype(str)
+        .str.contains("*", regex=False)
+    ]["Use Name"]
     dropdown_zr_uses = mo.ui.dropdown(
-        uses_by_zoning_district_minimal["Use Name"],
+        zr_use_names,
         label="Use Name: ",
         searchable=True,
     )
-    dropdown_naics_uses = mo.ui.dropdown(
-        # sorted(naics_codes["NAICS Title"]),
-        sorted(addressed_naics_titles["NAICS Title"]),
+    expanded_use_names = (
+        addressed_naics_titles["NAICS Title"].tolist()
+        + uses_by_zoning_district_minimal["Use Name"].tolist()
+    )
+    dropdown_expanded_uses = mo.ui.dropdown(
+        sorted(expanded_use_names),
         label="Use Name: ",
         searchable=True,
     )
     tab_use_type = mo.ui.tabs(
         {
             "Zoning Resolution terms": dropdown_zr_uses,
-            "NAICS terms": dropdown_naics_uses,
+            "Expanded terms": dropdown_expanded_uses,
         }
     )
     return (
         dropdown_districts,
-        dropdown_naics_uses,
+        dropdown_expanded_uses,
         dropdown_zr_uses,
         tab_use_type,
     )
 
 
 @app.cell
-def _(dropdown_districts, dropdown_naics_uses, dropdown_zr_uses, tab_use_type):
+def _(
+    dropdown_districts,
+    dropdown_expanded_uses,
+    dropdown_zr_uses,
+    tab_use_type,
+):
     selected_district = dropdown_districts.value
 
     selected_use_name = (
         dropdown_zr_uses.value
         if tab_use_type.value == "Zoning Resolution terms"
-        else dropdown_naics_uses.value
+        else dropdown_expanded_uses.value
     )
     return selected_district, selected_use_name
 
@@ -318,29 +330,47 @@ def _(
     )
 
     # by use name
-    by_use_name_result = (
-        (
-            format_by_zr_use_table(
+    if not selected_use_name:
+        by_use_name_result = None
+    else:
+        if tab_use_type.value == "Zoning Resolution terms":
+            by_use_name_result = format_by_zr_use_table(
                 get_district_uses_by_zr_use(
                     uses_by_zoning_district_minimal,
                     selected_use_name,
                     minimal_columns=True,
                 )
             )
-            if tab_use_type.value == "Zoning Resolution terms"
-            else format_by_naics_use_table(
-                get_district_uses_by_naics_index(
-                    uses_by_zoning_district_minimal,
-                    naics_codes,
-                    selected_use_name,
-                    minimal_columns=True,
-                    include_all_districts=True,
-                ),
-            )
-        )
-        if selected_use_name
-        else None
-    )
+        else:
+            # try naics search first, then fall back to ZR use name search if the selected use isn't found in the NAICS index
+            try:
+                naics_attempt = format_by_naics_use_table(
+                    get_district_uses_by_naics_index(
+                        uses_by_zoning_district_minimal,
+                        naics_codes,
+                        selected_use_name,
+                        minimal_columns=True,
+                        include_all_districts=True,
+                    ),
+                )
+                if isinstance(naics_attempt, str):
+                    by_use_name_result = format_by_zr_use_table(
+                        get_district_uses_by_zr_use(
+                            uses_by_zoning_district_minimal,
+                            selected_use_name,
+                            minimal_columns=True,
+                        )
+                    )
+                else:
+                    by_use_name_result = naics_attempt
+            except AssertionError as error:
+                by_use_name_result = format_by_zr_use_table(
+                    get_district_uses_by_zr_use(
+                        uses_by_zoning_district_minimal,
+                        selected_use_name,
+                        minimal_columns=True,
+                    )
+                )
     result_stack_use_name = mo.vstack(
         [
             f"You chose '{selected_use_name}'",
