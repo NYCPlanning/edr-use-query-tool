@@ -157,7 +157,7 @@ def _():
         "**Select a Zoning District to see a full list of allowed uses.**"
     )
 
-    query_by_district_note = '_Notes: "Expanded terms" include uses named in the Zoning Resolution, affiliated NAICS indices, and select uses manually added by DCP staff for user convenience, denoted by an asterisk (*). Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). See the Use Notes column for more information on individual uses._'
+    query_by_district_note = '_Note: "Expanded terms" include uses named in the Zoning Resolution, affiliated NAICS indices, and select uses manually added by DCP staff for user convenience, denoted by an asterisk (*). Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). See the Use Notes column for more information on individual uses._'
     return query_by_district_intro, query_by_district_note
 
 
@@ -165,7 +165,7 @@ def _():
 def _():
     query_by_use_intro = "**Select a Zoning Resolution use name or NAICS Index use name to see where it's allowed.**"
 
-    query_by_use_note = "_Notes: Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). An asterisk (*) denotes a use that was added for user convenience and is not specified in the Zoning Resolution's use group charts. See the Use Notes column for more information on individual uses._"
+    query_by_use_note = '_Note: "Expanded terms" include uses named in the Zoning Resolution, affiliated NAICS indices, and select uses manually added by DCP staff for user convenience, denoted by an asterisk (*). Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). See the Use Notes column for more information on individual uses._'
     return query_by_use_intro, query_by_use_note
 
 
