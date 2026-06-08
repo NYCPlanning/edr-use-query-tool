@@ -72,19 +72,25 @@ def _():
     Using the tool, you can:
     1. **Search by zoning district.** Find what uses are allowed in a given zoning district.
     2. **Search by use.** Find which zoning districts allow which uses.
-
-    **How do I find a lot's zoning district?** To look up the zoning district for a lot or area, use [ZoLa](https://zola.planning.nyc.gov/), New York City's zoning and land use map.
-
-    Some lots may have multiple standard zoning districts. For example, a lot might be both R6B and C2-4. This indicates a _Commercial District overlay_, where use allowances are governed by the Commercial District.
-
-    **What if a zoning district is not listed on this tool?** Some zoning districts are not listed on this tool, such as SNX, LIC, 125 or DB. These indicate _Special Purpose Districts_ that may have different rules for allowable uses. A full list of Special Purpose Districts can be found in the Zoning Resolution's [Appendix B](https://zr.planning.nyc.gov/appendix-b-index-special-purpose-districts). For more information about rules in these districts, consult [Articles VIII through XIV](https://zr.planning.nyc.gov/article-viii) in the Zoning Resolution.
     """)
     return
 
 
 @app.cell
-def _(user_accordion):
-    user_accordion
+def _(user_accordion_search):
+    user_accordion_search
+    return
+
+
+@app.cell
+def _(user_accordion_instructions):
+    user_accordion_instructions
+    return
+
+
+@app.cell
+def _(user_accordion_view_all):
+    user_accordion_view_all
     return
 
 
@@ -154,7 +160,7 @@ def _(
 @app.cell
 def _():
     query_by_district_intro = (
-        "**Select a Zoning District to see a full list of allowed uses.**"
+        "**Select a zoning district to see a full list of allowed uses.**"
     )
 
     query_by_district_note = '_Note: "Expanded terms" include uses named in the Zoning Resolution, affiliated NAICS indices, and select uses manually added by DCP staff for user convenience, denoted by an asterisk (*). Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). See the Use Notes column for more information on individual uses._'
@@ -404,15 +410,13 @@ def _(
     conditional_result_district,
     conditional_result_use_name,
     dropdown_districts,
-    naics_codes,
     query_by_district_intro,
     query_by_district_note,
     query_by_use_intro,
     query_by_use_note,
     tab_use_type,
-    zr_uses,
 ):
-    user_accordion = mo.accordion(
+    user_accordion_search = mo.accordion(
         {
             "<strong style='font-size:24px;line-height:24px'>Search by <span style='color:#D76A27'>zoning district</span></strong>": mo.vstack(
                 [
@@ -434,6 +438,15 @@ def _(
                     mo.md(query_by_use_note),
                 ]
             ),
+        }
+    )
+    return (user_accordion_search,)
+
+
+@app.cell
+def _(naics_codes, zr_uses):
+    user_accordion_view_all = mo.accordion(
+        {
             "<span style='font-size:24px;line-height:24px'>View all uses and indexes</span>": mo.vstack(
                 [
                     mo.md("### Zoning Resolution Uses"),
@@ -445,7 +458,34 @@ def _(
             ),
         }
     )
-    return (user_accordion,)
+    return (user_accordion_view_all,)
+
+
+@app.cell
+def _():
+    _instructions = mo.md(r"""
+    **To look up the zoning district for a lot or area,** use [ZoLa](https://zola.planning.nyc.gov/), the New York City zoning and land use map:
+
+    1. Identify the address of your property of interest.
+    2. Search this address on ZoLa to find the lot.
+    3. Identify the lot's zoning district in the pop-up window on the right side.
+    4. Select that zoning district in the Land Use Lookup tool above to find a list of allowed uses.
+
+    **Note:** Some lots may have multiple standard zoning districts. For example, a lot might be both R6B and C2-4. This indicates a _Commercial District overlay_, where use allowances are governed by the Commercial District.
+
+    **What if a zoning district is not listed on this tool?** Some zoning districts are not listed on this tool, such as SNX, LIC, 125 or DB. These indicate _Special Purpose Districts_ that may have different rules for allowable uses. A full list of Special Purpose Districts can be found in the Zoning Resolution's [Appendix B](https://zr.planning.nyc.gov/appendix-b-index-special-purpose-districts). For more information about rules in these districts, consult [Articles VIII through XIV](https://zr.planning.nyc.gov/article-viii) in the Zoning Resolution._
+    """)
+
+    user_accordion_instructions = mo.accordion(
+        {
+            "<span style='font-size:24px;line-height:24px'>Instructions</span>": mo.vstack(
+                [
+                    mo.Html(f'<div class="disclaimer">{_instructions.text}</div>')
+                ]
+            ),
+        }
+    )
+    return (user_accordion_instructions,)
 
 
 @app.cell
