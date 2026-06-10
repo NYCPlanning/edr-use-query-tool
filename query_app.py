@@ -471,7 +471,7 @@ def _():
     3. Identify the lot's zoning district in the pop-up window on the right side.
     4. Select that zoning district in the Land Use Lookup tool above to find a list of allowed uses.
 
-    **Note:** Some lots may have multiple standard zoning districts. For example, a lot might be both R6B and C2-4. This indicates a _Commercial District overlay_, where use allowances are governed by the Commercial District.
+    **Some lots may have multiple standard zoning districts.** For example, a lot might be both R6B and C2-4. This indicates a _Commercial District overlay_, where use allowances are governed by the Commercial District.
 
     **What if a zoning district is not listed on this tool?** Some zoning districts are not listed on this tool, such as SNX, LIC, 125 or DB. These indicate _Special Purpose Districts_ that may have different rules for allowable uses. A full list of Special Purpose Districts can be found in the Zoning Resolution's [Appendix B](https://zr.planning.nyc.gov/appendix-b-index-special-purpose-districts). For more information about rules in these districts, consult [Articles VIII through XIV](https://zr.planning.nyc.gov/article-viii) in the Zoning Resolution._
     """)
