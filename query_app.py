@@ -59,7 +59,7 @@ def _():
         line-height: 42px;
         color: #063793;
         margin: 0;
-    ">From laundromats to bike shops, find out what zoning allows on different lots across New York City.</h1>
+    ">From laundromats to bike shops, find out what uses zoning allows on different lots across New York City.</h1>
     """)
     return
 
@@ -70,8 +70,6 @@ def _():
     The Land Use Lookup uses the New York City [Zoning Resolution](https://zoningresolution.planning.nyc.gov/) and the [North American Industry Classification System](https://www.census.gov/naics/?99967) (NAICS) to identify permitted uses.
 
     Using the tool, you can:
-    1. **Search by zoning district.** Find what uses are allowed in a given zoning district.
-    2. **Search by use.** Find which zoning districts allow which uses.
     """)
     return
 
@@ -169,7 +167,7 @@ def _():
 
 @app.cell
 def _():
-    query_by_use_intro = "**Select a Zoning Resolution use name or NAICS Index use name to see where it's allowed.**"
+    query_by_use_intro = "**Select a Zoning Resolution use name or from an expanded list of uses that includes NAICS Indexes to see where it's allowed.**"
 
     query_by_use_note = '_Note: "Expanded terms" include uses named in the Zoning Resolution, affiliated NAICS indices, and select uses manually added by DCP staff for user convenience, denoted by an asterisk (*). Any term defined in the [Zoning Resolution Glossary](https://zr.planning.nyc.gov/article-i/chapter-2#12-10) is denoted by a pound symbol (#). See the Use Notes column for more information on individual uses._'
     return query_by_use_intro, query_by_use_note
@@ -418,7 +416,7 @@ def _(
 ):
     user_accordion_search = mo.accordion(
         {
-            "<strong style='font-size:24px;line-height:24px'>Search by <span style='color:#D76A27'>zoning district</span></strong>": mo.vstack(
+            "<strong style='font-size:24px;line-height:24px'>Search by <span style='color:#D76A27'>zoning district</span></strong>  _Find what uses are allowed in a given zoning district_": mo.vstack(
                 [
                     mo.md(query_by_district_intro),
                     dropdown_districts,
@@ -428,7 +426,7 @@ def _(
                     mo.md(query_by_district_note),
                 ],
             ),
-            "<strong style='font-size:24px;line-height:24px'>Search by <span style='color:#319795'>use</span></strong>": mo.vstack(
+            "<strong style='font-size:24px;line-height:24px'>Search by <span style='color:#319795'>use</span></strong>  _Find which zoning districts allow which uses_": mo.vstack(
                 [
                     mo.md(query_by_use_intro),
                     tab_use_type,
