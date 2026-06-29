@@ -10,7 +10,7 @@
 
 import marimo
 
-__generated_with = "0.19.4"
+__generated_with = "0.23.11"
 app = marimo.App(
     width="medium",
     app_title="Land Use Lookup",
@@ -263,6 +263,7 @@ def _(pd):
         }
         data_renamed = data.rename(columns=column_name_mapping)
         return format_ui_table(data_renamed, could_be_empty=True)
+
     return (
         format_by_district_table,
         format_by_naics_use_table,
@@ -627,7 +628,9 @@ def _(pd):
         assert len(districts) == 1, (
             f"There should only be one zoning district value, not {districts}"
         )
-        permitted_district_uses = district_uses[~district_uses["Not permitted"]]
+        permitted_district_uses = district_uses[
+            ~district_uses["Not permitted"]
+        ]
 
         # "Use NAICS Code" values are NAICS index codes and are comma-delimited.
         # Reuse the generic `explode_delimited_lists` helper to split, strip,
@@ -641,6 +644,7 @@ def _(pd):
             .dropna()
             .sort_values()
             .reset_index(drop=True)
+            .astype("str")
         )
 
         # district uses may have no code or a code with 6 to 3 digits
@@ -655,7 +659,9 @@ def _(pd):
 
         code_search_parts = []
         for length, column_name, reason in length_column_reason:
-            matches = permitted_use_codes[permitted_use_codes.str.len() == length]
+            matches = permitted_use_codes[
+                permitted_use_codes.str.len() == length
+            ]
             if matches.empty:
                 continue
             matches = matches.reset_index(drop=True)
@@ -692,7 +698,10 @@ def _(pd):
         )
 
         # "NAICS index names to include" values are NAICS index titles and are ; delimited
-        if not "NAICS index names to include" in permitted_district_uses.columns:
+        if (
+            not "NAICS index names to include"
+            in permitted_district_uses.columns
+        ):
             name_search = pd.DataFrame(
                 columns=naics_codes.columns.to_list()
                 + ["Permitted reason", "Permitted value"]
@@ -724,15 +733,17 @@ def _(pd):
 
             mapping_names = permitted_district_uses.copy()
 
-            mapping_names.loc[:, "NAICS index names to include"] = (
+            mapping_names["NAICS index names to include"] = (
                 mapping_names["NAICS index names to include"]
                 .dropna()
                 .astype(str)
                 .str.split(";")
                 .apply(
-                    lambda lst: [s.strip() for s in lst]
-                    if isinstance(lst, list)
-                    else lst
+                    lambda lst: (
+                        [s.strip() for s in lst]
+                        if isinstance(lst, list)
+                        else lst
+                    )
                 )
             )
             mapping_names = mapping_names.explode(
@@ -754,7 +765,6 @@ def _(pd):
         ).reset_index(drop=True)
 
         return permitted_values
-
 
     def explode_delimited_lists(
         df: pd.DataFrame,
@@ -811,9 +821,9 @@ def _(pd):
         series = series.apply(
             lambda lst: _clean_list(lst) if isinstance(lst, list) else lst
         )
-        df.loc[:, column_to_split] = series
+        df = df.copy()
+        df[column_to_split] = series
         return df.explode(column_to_split).reset_index(drop=True)
-
 
     def explode_code(code: str) -> list[str]:
         """Expand a NAICS prefix into the list of 6-digit NAICS codes it
@@ -854,7 +864,6 @@ def _(pd):
             return [str(i).zfill(6) for i in range(start, end + 1)]
 
         raise ValueError("Code must be 6 digits or fewer")
-
 
     def exclude_naics_codes(
         permitted_use_codes: pd.DataFrame,
@@ -917,7 +926,6 @@ def _(pd):
 
         return reduced_use_codes
 
-
     def exclude_naics_names(
         permitted_use_codes: pd.DataFrame,
         district_uses: pd.DataFrame,
@@ -946,6 +954,7 @@ def _(pd):
         ][permitted_use_codes.columns.to_list()].reset_index(drop=True)
 
         return reduced_use_names
+
     return (
         exclude_naics_codes,
         exclude_naics_names,
@@ -1231,6 +1240,7 @@ def _(
             "Is Allowed",
         ]
         return prepare_results_columns(results, first_columns, minimal_columns)
+
     return (
         get_all_uses_by_district,
         get_district_uses_by_naics_index,
