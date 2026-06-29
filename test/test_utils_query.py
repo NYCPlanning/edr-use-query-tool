@@ -221,7 +221,7 @@ def test_get_district_uses_by_naics_index():
                 "Shouldn't matter",
                 "12312, 123141",
                 "Shouldn't matter either",
-                "",
+                False,
             ],
             [
                 "Allowed in both",
@@ -238,7 +238,7 @@ def test_get_district_uses_by_naics_index():
                 "Shouldn't matter",
                 "12312, 123141",
                 "Shouldn't matter either",
-                "",
+                False,
             ],
         ],
     )

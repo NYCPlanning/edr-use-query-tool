@@ -53,6 +53,7 @@ def find_permitted_naics_indexes(
         .dropna()
         .sort_values()
         .reset_index(drop=True)
+        .astype("str")
     )
 
     # district uses may have no code or a code with 6 to 3 digits
@@ -132,7 +133,7 @@ def find_permitted_naics_indexes(
 
         mapping_names = permitted_district_uses.copy()
 
-        mapping_names.loc[:, "NAICS index names to include"] = (
+        mapping_names["NAICS index names to include"] = (
             mapping_names["NAICS index names to include"]
             .dropna()
             .astype(str)
@@ -216,7 +217,8 @@ def explode_delimited_lists(
     series = series.apply(
         lambda lst: _clean_list(lst) if isinstance(lst, list) else lst
     )
-    df.loc[:, column_to_split] = series
+    df = df.copy()
+    df[column_to_split] = series
     return df.explode(column_to_split).reset_index(drop=True)
 
 
