@@ -539,13 +539,6 @@ def _(prepare_results_columns, uses_by_zoning_district):
     uses_by_zoning_district_minimal = uses_by_zoning_district.copy()
     uses_by_zoning_district_minimal = uses_by_zoning_district_minimal[
         [
-            "Use Group",
-            "Use Header",
-            "Use Name",
-            "Use NAICS Code",
-            "NAICS index names to include",
-            "NAICS to subtract",
-            "NAICS index names to subtract",
             "Zoning District",
             "Not permitted",
             "Is Allowed",
@@ -555,6 +548,13 @@ def _(prepare_results_columns, uses_by_zoning_district):
             "Open Use Allowances",
             "Limitations",
             "Use Notes",
+            "Use Group",
+            "Use Header",
+            "Use Name",
+            "Use NAICS Code",
+            "NAICS index names to include",
+            "NAICS to subtract",
+            "NAICS index names to subtract",
         ]
     ]
     return uses_by_zoning_district_minimal, zr_uses
@@ -1042,9 +1042,6 @@ def _(
             uses_by_zoning_district["Use Name"] == use_name
         ].reset_index(drop=True)
         first_columns = [
-            "Use Group",
-            "Use Header",
-            "Use Name",
             "Zoning District",
             "Is Allowed",
         ]
@@ -1231,13 +1228,13 @@ def _(
             )
 
         first_columns = [
+            "Zoning District",
+            "Is Allowed",
             "NAICS Title",
             "NAICS Code",
             "Use Group",
             "Use Header",
             "Use Name",
-            "Zoning District",
-            "Is Allowed",
         ]
         return prepare_results_columns(results, first_columns, minimal_columns)
 
