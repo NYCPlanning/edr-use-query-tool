@@ -188,7 +188,49 @@ def _():
 
 @app.cell
 def _(pd):
-    def format_ui_table(data: pd.DataFrame, could_be_empty: bool = False):
+    _PARKLAND = {
+        50: "#DDEFDF",
+        100: "#BCDFC0",
+        200: "#9ACFA0",
+        300: "#79BF81",
+        400: "#57AF61",
+        500: "#36A042",
+    }  # green
+    _FIRE_HYDRANT = {
+        50: "#FFD4D5",
+        100: "#FFAAAB",
+        200: "#FF7F81",
+        300: "#FF5557",
+        400: "#FF2A2D",
+        500: "#FF0004",
+    }  # red
+    _METROCARD = {
+        50: "#FFF7D9",
+        100: "#FFF0B3",
+        200: "#FFE88D",
+        300: "#FFE167",
+        400: "#FFD941",
+        500: "#FFD21C",
+    }  # yellow
+
+    # Temporary knob: set to one of 50, 100, 200, ... 500 and re-run this cell to
+    # shift all three "Is it Allowed?" colors together while picking a set.
+    _SHADE = 50
+
+    def _style_is_allowed(_row_id, column_name, value):
+        if column_name != "Is it Allowed?":
+            return {}
+        if value == "Yes":
+            return {"backgroundColor": _PARKLAND[_SHADE]}
+        if value == "No":
+            return {"backgroundColor": _FIRE_HYDRANT[_SHADE]}
+        return {"backgroundColor": _METROCARD[_SHADE]}
+
+    def format_ui_table(
+        data: pd.DataFrame,
+        could_be_empty: bool = False,
+        style_cell=_style_is_allowed,
+    ):
         if could_be_empty and data.empty:
             # this is only the case when a NAICS Index is not addressed in the ZR
             return "The chosen NAICS Index is not explicitly addressed in the Zoning Resolution. Try an alternative/broader term or search by a Zoning Resolution use."
@@ -201,8 +243,8 @@ def _(pd):
             page_size=25,
             selection=None,
             show_data_types=False,
+            style_cell=style_cell,
         )
-
 
     def format_by_district_table(
         data: pd.DataFrame, columns_to_drop: list | None = None
@@ -244,7 +286,6 @@ def _(pd):
             data_reordered = data_reordered.drop(columns=columns_to_drop)
         return format_ui_table(data_reordered)
 
-
     def format_by_zr_use_table(data: pd.DataFrame):
         column_name_mapping = {
             "Use Header": "Use Category",
@@ -253,7 +294,6 @@ def _(pd):
         }
         data_renamed = data.rename(columns=column_name_mapping)
         return format_ui_table(data_renamed)
-
 
     def format_by_naics_use_table(data: pd.DataFrame):
         column_name_mapping = {
@@ -285,7 +325,6 @@ def _(
     tab_use_type,
     uses_by_zoning_district_minimal,
 ):
-    # by district
     _by_district_result = (
         get_all_uses_by_district(
             uses_by_zoning_district_minimal,
@@ -315,7 +354,8 @@ def _(
     )
     by_district_result_table_zr_only = (
         format_by_district_table(
-            _by_district_result_zr_only, columns_to_drop=["NAICS Index Use Name"]
+            _by_district_result_zr_only,
+            columns_to_drop=["NAICS Index Use Name"],
         )
         if selected_district
         else None
@@ -479,7 +519,9 @@ def _():
         {
             "<span style='font-size:24px;line-height:24px'>Instructions</span>": mo.vstack(
                 [
-                    mo.Html(f'<div class="disclaimer">{_instructions.text}</div>')
+                    mo.Html(
+                        f'<div class="disclaimer">{_instructions.text}</div>'
+                    )
                 ]
             ),
         }
@@ -495,7 +537,6 @@ def _():
 
 @app.cell
 def _(SOURCE_DATA_DIRECTORY, pl):
-    # pandas fails to read csvs from URLs with error "BadGzipFile: Not a gzipped file (b'sp')"
     uses_by_zoning_district_polars = pl.read_csv(
         str(SOURCE_DATA_DIRECTORY / "uses_by_zoning_district.csv"),
         infer_schema_length=None,
@@ -562,7 +603,6 @@ def _(prepare_results_columns, uses_by_zoning_district):
 
 @app.cell
 def _(SOURCE_DATA_DIRECTORY, pl):
-    # pandas fails to read csvs from URLs with error "BadGzipFile: Not a gzipped file (b'sp')"
     addressed_naics_titles_polars = pl.read_csv(
         str(SOURCE_DATA_DIRECTORY / "addressed_naics_titles.csv"),
         infer_schema_length=None,
@@ -573,7 +613,6 @@ def _(SOURCE_DATA_DIRECTORY, pl):
 
 @app.cell
 def _(SOURCE_DATA_DIRECTORY, pl):
-    # pandas fails to read csvs from URLs with error "BadGzipFile: Not a gzipped file (b'sp')"
     naics_codes_polars = pl.read_csv(
         str(SOURCE_DATA_DIRECTORY / "naics_codes.csv"),
         infer_schema_length=None,
@@ -978,13 +1017,11 @@ def _(
         "Use Notes",
     ]
 
-
     def _reorder_columns(df: pd.DataFrame, first_columns: list):
         # keep the specified columns first (only if they exist), then append any other columns in their current order
         existing_first_cols = [c for c in first_columns if c in df.columns]
         other_cols = [c for c in df.columns if c not in existing_first_cols]
         return df.loc[:, existing_first_cols + other_cols]
-
 
     def _clean_falsy_values(df: pd.DataFrame) -> pd.DataFrame:
         # replace all falsy values with an empty string
@@ -997,7 +1034,6 @@ def _(
             df[col] = df[col].replace("False", "")
             df[col] = df[col].fillna("")
         return df
-
 
     def prepare_results_columns(
         results: pd.DataFrame,
@@ -1013,7 +1049,6 @@ def _(
         if minimal_columns:
             return reordered.loc[:, primary_columns]
         return reordered
-
 
     def get_district_uses_by_zr_use(
         uses_by_zoning_district: pd.DataFrame,
@@ -1046,7 +1081,6 @@ def _(
             "Is Allowed",
         ]
         return prepare_results_columns(results, first_columns, minimal_columns)
-
 
     def get_naics_indexes_by_district(
         uses_by_zoning_district: pd.DataFrame,
@@ -1104,7 +1138,6 @@ def _(
         ]
         return prepare_results_columns(results, first_columns, minimal_columns)
 
-
     def get_all_uses_by_district(
         uses_by_zoning_district: pd.DataFrame,
         zoning_distrct: str,
@@ -1112,7 +1145,10 @@ def _(
         minimal_columns: bool = False,
     ):
         naics_indexes_by_district = get_naics_indexes_by_district(
-            uses_by_zoning_district, zoning_distrct, naics_codes, minimal_columns
+            uses_by_zoning_district,
+            zoning_distrct,
+            naics_codes,
+            minimal_columns,
         )
 
         zr_uses_by_district = uses_by_zoning_district[
@@ -1124,9 +1160,9 @@ def _(
             zr_uses_by_district.loc[:, "NAICS Title"] = ""
             zr_uses_by_district.loc[:, "NAICS Code"] = ""
             zr_uses_by_district.loc[:, "Permitted reason"] = "ZR use name"
-            zr_uses_by_district.loc[:, "Permitted value"] = zr_uses_by_district[
-                "Use Name"
-            ]
+            zr_uses_by_district.loc[:, "Permitted value"] = (
+                zr_uses_by_district["Use Name"]
+            )
             first_columns = [
                 "Zoning District",
                 "Use Group",
@@ -1144,7 +1180,6 @@ def _(
             [zr_uses_by_district, naics_indexes_by_district]
         ).reset_index(drop=True)
         return results
-
 
     def get_district_uses_by_naics_index(
         uses_by_zoning_district: pd.DataFrame,
@@ -1178,12 +1213,16 @@ def _(
             DataFrame of permitted NAICS entries across zoning districts for the
             provided NAICS title.
         """
-        naics_codes_single = naics_codes[naics_codes["NAICS Title"] == naics_title]
+        naics_codes_single = naics_codes[
+            naics_codes["NAICS Title"] == naics_title
+        ]
         assert len(naics_codes_single) == 1, (
             f"There should only be one NAICS index, not {len(naics_codes_single)}"
         )
         districts_results = []
-        districts = uses_by_zoning_district["Zoning District"].unique().tolist()
+        districts = (
+            uses_by_zoning_district["Zoning District"].unique().tolist()
+        )
         for district in districts:
             district_result = get_naics_indexes_by_district(
                 uses_by_zoning_district, district, naics_codes_single
@@ -1198,7 +1237,8 @@ def _(
         assert len(results["Use Name"].unique().tolist()) == 1
         if include_all_districts:
             all_use_districts = uses_by_zoning_district[
-                uses_by_zoning_district["Use Name"] == results["Use Name"].iloc[0]
+                uses_by_zoning_district["Use Name"]
+                == results["Use Name"].iloc[0]
             ]
             all_use_districts = all_use_districts[
                 [
