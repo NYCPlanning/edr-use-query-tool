@@ -44,9 +44,42 @@ def _():
     import polars as pl
     import pyarrow  # to force install in WASM notebook
 
+    # pandas 3.0 defaults string columns to a pyarrow-backed ``str`` dtype. Under
+    # Pyodide/WASM those Arrow buffers are read-only, which breaks pandas' merge
+    # factorizer (``ValueError: putmask: output array is read-only``) — the table
+    # vanishes for any use whose lookup hits a merge. Opting back out of the new
+    # string dtype keeps strings as plain numpy ``object`` everywhere (including
+    # the ``astype(str)`` calls in the explode helpers), so every merge uses the
+    # read-only-safe object path. Guarded because the option may not exist in the
+    # exact pandas build Pyodide ships. See to_pandas_writable() for the polars
+    # half of this fix.
+    try:
+        pd.options.future.infer_string = False
+    except Exception:
+        pass
+
     # Using mo.notebook_location() to access data both locally and when running via WebAssembly (e.g. hosted on GitHub Pages)
     SOURCE_DATA_DIRECTORY = mo.notebook_location() / "public" / "data"
-    return SOURCE_DATA_DIRECTORY, pd, pl
+
+    def to_pandas_writable(polars_df):
+        """Convert a polars DataFrame to pandas with numpy-backed string columns.
+
+        ``polars.to_pandas()`` builds pyarrow-backed columns directly, so it
+        ignores the ``future.infer_string`` opt-out above and still yields Arrow
+        ``str`` columns. Under Pyodide/WASM those Arrow buffers are read-only and
+        break pandas' merge factorizer. Re-materializing the string columns as
+        numpy ``object`` arrays gives every downstream merge read-only-safe join
+        keys. (Behavior is identical locally, where the buffers are writable.)
+        """
+        pandas_df = polars_df.to_pandas()
+        string_columns = {
+            column: object
+            for column in pandas_df.columns
+            if str(pandas_df[column].dtype) in ("object", "str")
+        }
+        return pandas_df.astype(string_columns)
+
+    return SOURCE_DATA_DIRECTORY, pd, pl, to_pandas_writable
 
 
 @app.cell(hide_code=True)
@@ -564,12 +597,13 @@ def _():
 
 
 @app.cell
-def _(SOURCE_DATA_DIRECTORY, pl):
-    uses_by_zoning_district_polars = pl.read_csv(
-        str(SOURCE_DATA_DIRECTORY / "uses_by_zoning_district.csv"),
-        infer_schema_length=None,
+def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
+    uses_by_zoning_district = to_pandas_writable(
+        pl.read_csv(
+            str(SOURCE_DATA_DIRECTORY / "uses_by_zoning_district.csv"),
+            infer_schema_length=None,
+        )
     )
-    uses_by_zoning_district = uses_by_zoning_district_polars.to_pandas()
     return (uses_by_zoning_district,)
 
 
@@ -630,22 +664,24 @@ def _(prepare_results_columns, uses_by_zoning_district):
 
 
 @app.cell
-def _(SOURCE_DATA_DIRECTORY, pl):
-    addressed_naics_titles_polars = pl.read_csv(
-        str(SOURCE_DATA_DIRECTORY / "addressed_naics_titles.csv"),
-        infer_schema_length=None,
+def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
+    addressed_naics_titles = to_pandas_writable(
+        pl.read_csv(
+            str(SOURCE_DATA_DIRECTORY / "addressed_naics_titles.csv"),
+            infer_schema_length=None,
+        )
     )
-    addressed_naics_titles = addressed_naics_titles_polars.to_pandas()
     return (addressed_naics_titles,)
 
 
 @app.cell
-def _(SOURCE_DATA_DIRECTORY, pl):
-    naics_codes_polars = pl.read_csv(
-        str(SOURCE_DATA_DIRECTORY / "naics_codes.csv"),
-        infer_schema_length=None,
+def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
+    naics_codes = to_pandas_writable(
+        pl.read_csv(
+            str(SOURCE_DATA_DIRECTORY / "naics_codes.csv"),
+            infer_schema_length=None,
+        )
     )
-    naics_codes = naics_codes_polars.to_pandas()
     return (naics_codes,)
 
 
