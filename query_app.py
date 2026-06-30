@@ -195,6 +195,11 @@ def _(pd):
         300: "#79BF81",
         400: "#57AF61",
         500: "#36A042",
+        600: "#2D8537",
+        700: "#246A2C",
+        800: "#1B5021",
+        900: "#123516",
+        1000: "#091A0B",
     }  # green
     _FIRE_HYDRANT = {
         50: "#FFD4D5",
@@ -203,6 +208,11 @@ def _(pd):
         300: "#FF5557",
         400: "#FF2A2D",
         500: "#FF0004",
+        600: "#D40003",
+        700: "#AA0002",
+        800: "#7F0002",
+        900: "#550001",
+        1000: "#2A0000",
     }  # red
     _METROCARD = {
         50: "#FFF7D9",
@@ -211,9 +221,14 @@ def _(pd):
         300: "#FFE167",
         400: "#FFD941",
         500: "#FFD21C",
+        600: "#D4AF17",
+        700: "#AA8C12",
+        800: "#7F690E",
+        900: "#554609",
+        1000: "#2A2304",
     }  # yellow
 
-    # Temporary knob: set to one of 50, 100, 200, ... 500 and re-run this cell to
+    # Temporary knob: set to one of 50, 100, 200, ... 1000 and re-run this cell to
     # shift all three "Is it Allowed?" colors together while picking a set.
     _SHADE = 50
 
@@ -246,6 +261,31 @@ def _(pd):
             style_cell=style_cell,
         )
 
+    # Canonical left-to-right column order shared by all result tables, so the
+    # "Search by use" tabs stay consistent with the by-district view (conditions
+    # sit just right of "Is it Allowed?" instead of being pushed to the far right).
+    _COLUMN_ORDER = [
+        "Zoning District",
+        "Is it Allowed?",
+        "Special Permit",
+        "Size Restrictions",
+        "Additional Conditions",
+        "Open Use Allowances",
+        "Limitations",
+        "Use Notes",
+        "Use Group",
+        "Use Category",
+        "Zoning Resolution Use Name",
+        "NAICS Index Use Name",
+        "NAICS Code",
+    ]
+
+    def _order_table_columns(data: pd.DataFrame) -> pd.DataFrame:
+        # Keep known columns in canonical order; append any extras unchanged.
+        ordered = [c for c in _COLUMN_ORDER if c in data.columns]
+        ordered += [c for c in data.columns if c not in _COLUMN_ORDER]
+        return data[ordered]
+
     def format_by_district_table(
         data: pd.DataFrame, columns_to_drop: list | None = None
     ):
@@ -255,24 +295,9 @@ def _(pd):
             "NAICS Title": "NAICS Index Use Name",
             "Is Allowed": "Is it Allowed?",
         }
-        columns = [
-            "Zoning District",
-            "Use Group",
-            "Use Category",
-            "Zoning Resolution Use Name",
-            "NAICS Index Use Name",
-            "Is it Allowed?",
-            "NAICS Code",
-            "Special Permit",
-            "Size Restrictions",
-            "Additional Conditions",
-            "Open Use Allowances",
-            "Limitations",
-            "Use Notes",
-        ]
         data_renamed = data.rename(columns=column_name_mapping)
         data_reordered = (
-            data_renamed[columns]
+            _order_table_columns(data_renamed)
             .sort_values(
                 by=[
                     "Use Group",
@@ -293,16 +318,19 @@ def _(pd):
             "Is Allowed": "Is it Allowed?",
         }
         data_renamed = data.rename(columns=column_name_mapping)
-        return format_ui_table(data_renamed)
+        return format_ui_table(_order_table_columns(data_renamed))
 
     def format_by_naics_use_table(data: pd.DataFrame):
         column_name_mapping = {
             "Use Header": "Use Category",
             "Use Name": "Zoning Resolution Use Name",
+            "NAICS Title": "NAICS Index Use Name",
             "Is Allowed": "Is it Allowed?",
         }
         data_renamed = data.rename(columns=column_name_mapping)
-        return format_ui_table(data_renamed, could_be_empty=True)
+        return format_ui_table(
+            _order_table_columns(data_renamed), could_be_empty=True
+        )
 
     return (
         format_by_district_table,
