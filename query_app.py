@@ -313,24 +313,27 @@ def _(pd):
         "NAICS Code",
     ]
 
-    def _order_table_columns(data: pd.DataFrame) -> pd.DataFrame:
-        # Keep known columns in canonical order; append any extras unchanged.
-        ordered = [c for c in _COLUMN_ORDER if c in data.columns]
-        ordered += [c for c in data.columns if c not in _COLUMN_ORDER]
-        return data[ordered]
+    _COLUMN_RENAME = {
+        "Use Header": "Use Category",
+        "Use Name": "Zoning Resolution Use Name",
+        "NAICS Title": "NAICS Index Use Name",
+        "Is Allowed": "Is it Allowed?",
+    }
+
+    def _rename_and_order(data: pd.DataFrame) -> pd.DataFrame:
+        # Apply display column names, then the canonical left-to-right order:
+        # known columns first (in _COLUMN_ORDER), any extras appended unchanged.
+        renamed = data.rename(columns=_COLUMN_RENAME)
+        ordered = [c for c in _COLUMN_ORDER if c in renamed.columns]
+        ordered += [c for c in renamed.columns if c not in _COLUMN_ORDER]
+        return renamed[ordered]
 
     def format_by_district_table(
         data: pd.DataFrame, columns_to_drop: list | None = None
     ):
-        column_name_mapping = {
-            "Use Header": "Use Category",
-            "Use Name": "Zoning Resolution Use Name",
-            "NAICS Title": "NAICS Index Use Name",
-            "Is Allowed": "Is it Allowed?",
-        }
-        data_renamed = data.rename(columns=column_name_mapping)
-        data_reordered = (
-            _order_table_columns(data_renamed)
+        # Sorted by use; the "Zoning Resolution terms" tab drops a column.
+        table = (
+            _rename_and_order(data)
             .sort_values(
                 by=[
                     "Use Group",
@@ -341,29 +344,20 @@ def _(pd):
             .reset_index(drop=True)
         )
         if columns_to_drop:
-            data_reordered = data_reordered.drop(columns=columns_to_drop)
-        return format_ui_table(data_reordered)
+            table = table.drop(columns=columns_to_drop)
+        return format_ui_table(table)
 
+    # These two are named by the result they format (a ZR-use result vs a
+    # NAICS-index result), not by the search tab. The "Zoning Resolution terms"
+    # tab uses format_by_zr_use_table; the "Expanded terms" tab uses
+    # format_by_naics_use_table, falling back to format_by_zr_use_table when the
+    # term isn't a NAICS index (see the use-name orchestration cell).
     def format_by_zr_use_table(data: pd.DataFrame):
-        column_name_mapping = {
-            "Use Header": "Use Category",
-            "Use Name": "Zoning Resolution Use Name",
-            "Is Allowed": "Is it Allowed?",
-        }
-        data_renamed = data.rename(columns=column_name_mapping)
-        return format_ui_table(_order_table_columns(data_renamed))
+        return format_ui_table(_rename_and_order(data))
 
     def format_by_naics_use_table(data: pd.DataFrame):
-        column_name_mapping = {
-            "Use Header": "Use Category",
-            "Use Name": "Zoning Resolution Use Name",
-            "NAICS Title": "NAICS Index Use Name",
-            "Is Allowed": "Is it Allowed?",
-        }
-        data_renamed = data.rename(columns=column_name_mapping)
-        return format_ui_table(
-            _order_table_columns(data_renamed), could_be_empty=True
-        )
+        # NAICS results can be empty when the index isn't addressed in the ZR.
+        return format_ui_table(_rename_and_order(data), could_be_empty=True)
 
     return (
         format_by_district_table,
@@ -373,54 +367,96 @@ def _(pd):
 
 
 @app.cell
-def _(
+def result_builders(
     format_by_district_table,
     format_by_naics_use_table,
     format_by_zr_use_table,
     get_all_uses_by_district,
     get_district_uses_by_naics_index,
     get_district_uses_by_zr_use,
+):
+    def build_by_district_tables(selected_district, uses_minimal, naics_codes):
+        """Result tables for the "Search by zoning district" tabs.
+
+        Returns (expanded_table, zr_only_table): "Expanded terms" shows all permitted
+        uses; "Zoning Resolution terms" shows only ZR-named uses (no NAICS index rows,
+        with the NAICS column dropped).
+        """
+        all_uses = get_all_uses_by_district(
+            uses_minimal, selected_district, naics_codes, minimal_columns=True
+        )
+        zr_only = all_uses[
+            (all_uses["NAICS Title"] == "")
+            & (
+                ~all_uses["Use Name"]
+                .astype(str)
+                .str.contains("*", regex=False)
+            )
+        ]
+        return (
+            format_by_district_table(all_uses),
+            format_by_district_table(
+                zr_only, columns_to_drop=["NAICS Index Use Name"]
+            ),
+        )
+
+    def resolve_use_name_result(
+        selected_use_name, use_search_tab, uses_minimal, naics_codes
+    ):
+        """Result table for the "Search by use" tabs.
+
+        The "Expanded terms" tab searches the NAICS index first and falls back to a
+        Zoning Resolution use-name search when the term isn't a NAICS index (not
+        addressed -> empty message; not found -> AssertionError).
+        """
+
+        def zr_use_table():
+            return format_by_zr_use_table(
+                get_district_uses_by_zr_use(
+                    uses_minimal, selected_use_name, minimal_columns=True
+                )
+            )
+
+        if use_search_tab == "Zoning Resolution terms":
+            return zr_use_table()
+        try:
+            naics_attempt = format_by_naics_use_table(
+                get_district_uses_by_naics_index(
+                    uses_minimal,
+                    naics_codes,
+                    selected_use_name,
+                    minimal_columns=True,
+                    include_all_districts=True,
+                )
+            )
+            if isinstance(naics_attempt, str):
+                return zr_use_table()
+            return naics_attempt
+        except AssertionError:
+            return zr_use_table()
+
+    return build_by_district_tables, resolve_use_name_result
+
+
+@app.cell
+def _(
+    build_by_district_tables,
     naics_codes,
+    resolve_use_name_result,
     selected_district,
     selected_use_name,
     tab_use_type,
     uses_by_zoning_district_minimal,
 ):
-    _by_district_result = (
-        get_all_uses_by_district(
-            uses_by_zoning_district_minimal,
-            selected_district,
-            naics_codes,
-            minimal_columns=True,
-        )
-        if selected_district
-        else None
-    )
-    by_district_result_table = (
-        format_by_district_table(_by_district_result)
-        if selected_district
-        else None
-    )
-    _by_district_result_zr_only = (
-        _by_district_result[
-            (_by_district_result["NAICS Title"] == "")
-            & (
-                ~_by_district_result["Use Name"]
-                .astype(str)
-                .str.contains("*", regex=False)
+    if selected_district:
+        by_district_result_table, by_district_result_table_zr_only = (
+            build_by_district_tables(
+                selected_district, uses_by_zoning_district_minimal, naics_codes
             )
-        ]
-        if selected_district
-        else None
-    )
-    by_district_result_table_zr_only = (
-        format_by_district_table(
-            _by_district_result_zr_only,
-            columns_to_drop=["NAICS Index Use Name"],
         )
-        if selected_district
-        else None
-    )
+    else:
+        by_district_result_table = by_district_result_table_zr_only = None
+
     tab_by_district_use_filtered_result = mo.ui.tabs(
         {
             "Zoning Resolution terms": by_district_result_table_zr_only,
@@ -430,53 +466,20 @@ def _(
     result_stack_district = mo.vstack(
         [
             f"You chose '{selected_district}'",
-            # by_district_result_table,
             tab_by_district_use_filtered_result,
         ]
     )
 
-    # by use name
-    if not selected_use_name:
-        by_use_name_result = None
-    else:
-        if tab_use_type.value == "Zoning Resolution terms":
-            by_use_name_result = format_by_zr_use_table(
-                get_district_uses_by_zr_use(
-                    uses_by_zoning_district_minimal,
-                    selected_use_name,
-                    minimal_columns=True,
-                )
-            )
-        else:
-            # try naics search first, then fall back to ZR use name search if the selected use isn't found in the NAICS index
-            try:
-                naics_attempt = format_by_naics_use_table(
-                    get_district_uses_by_naics_index(
-                        uses_by_zoning_district_minimal,
-                        naics_codes,
-                        selected_use_name,
-                        minimal_columns=True,
-                        include_all_districts=True,
-                    ),
-                )
-                if isinstance(naics_attempt, str):
-                    by_use_name_result = format_by_zr_use_table(
-                        get_district_uses_by_zr_use(
-                            uses_by_zoning_district_minimal,
-                            selected_use_name,
-                            minimal_columns=True,
-                        )
-                    )
-                else:
-                    by_use_name_result = naics_attempt
-            except AssertionError as error:
-                by_use_name_result = format_by_zr_use_table(
-                    get_district_uses_by_zr_use(
-                        uses_by_zoning_district_minimal,
-                        selected_use_name,
-                        minimal_columns=True,
-                    )
-                )
+    by_use_name_result = (
+        resolve_use_name_result(
+            selected_use_name,
+            tab_use_type.value,
+            uses_by_zoning_district_minimal,
+            naics_codes,
+        )
+        if selected_use_name
+        else None
+    )
     result_stack_use_name = mo.vstack(
         [
             f"You chose '{selected_use_name}'",
