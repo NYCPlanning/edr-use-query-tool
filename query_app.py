@@ -294,9 +294,10 @@ def _(pd):
             style_cell=style_cell,
         )
 
-    # Canonical left-to-right column order shared by all result tables, so the
-    # "Search by use" tabs stay consistent with the by-district view (conditions
-    # sit just right of "Is it Allowed?" instead of being pushed to the far right).
+    # Left-to-right column order for the "Search by use" tabs: those searches fix a
+    # use and vary the district, so they lead with "Zoning District" / "Is it
+    # Allowed?". The by-district view fixes a district and varies the use, so it
+    # leads with the use-identity columns instead (see _BY_DISTRICT_COLUMN_ORDER).
     _COLUMN_ORDER = [
         "Zoning District",
         "Is it Allowed?",
@@ -313,6 +314,22 @@ def _(pd):
         "NAICS Code",
     ]
 
+    _BY_DISTRICT_COLUMN_ORDER = [
+        "Use Group",
+        "Use Category",
+        "Zoning Resolution Use Name",
+        "NAICS Index Use Name",
+        "Zoning District",
+        "Is it Allowed?",
+        "Special Permit",
+        "Size Restrictions",
+        "Additional Conditions",
+        "Open Use Allowances",
+        "Limitations",
+        "Use Notes",
+        "NAICS Code",
+    ]
+
     _COLUMN_RENAME = {
         "Use Header": "Use Category",
         "Use Name": "Zoning Resolution Use Name",
@@ -320,12 +337,14 @@ def _(pd):
         "Is Allowed": "Is it Allowed?",
     }
 
-    def _rename_and_order(data: pd.DataFrame) -> pd.DataFrame:
-        # Apply display column names, then the canonical left-to-right order:
-        # known columns first (in _COLUMN_ORDER), any extras appended unchanged.
+    def _rename_and_order(
+        data: pd.DataFrame, column_order: list = _COLUMN_ORDER
+    ) -> pd.DataFrame:
+        # Apply display column names, then the given left-to-right order:
+        # known columns first (in column_order), any extras appended unchanged.
         renamed = data.rename(columns=_COLUMN_RENAME)
-        ordered = [c for c in _COLUMN_ORDER if c in renamed.columns]
-        ordered += [c for c in renamed.columns if c not in _COLUMN_ORDER]
+        ordered = [c for c in column_order if c in renamed.columns]
+        ordered += [c for c in renamed.columns if c not in column_order]
         return renamed[ordered]
 
     def format_by_district_table(
@@ -333,7 +352,7 @@ def _(pd):
     ):
         # Sorted by use; the "Zoning Resolution terms" tab drops a column.
         table = (
-            _rename_and_order(data)
+            _rename_and_order(data, _BY_DISTRICT_COLUMN_ORDER)
             .sort_values(
                 by=[
                     "Use Group",
@@ -380,7 +399,7 @@ def result_builders(
 
         Returns (expanded_table, zr_only_table): "Expanded terms" shows all permitted
         uses; "Zoning Resolution terms" shows only ZR-named uses (no NAICS index rows,
-        with the NAICS column dropped).
+        with the NAICS columns dropped).
         """
         all_uses = get_all_uses_by_district(
             uses_minimal, selected_district, naics_codes, minimal_columns=True
@@ -396,7 +415,8 @@ def result_builders(
         return (
             format_by_district_table(all_uses),
             format_by_district_table(
-                zr_only, columns_to_drop=["NAICS Index Use Name"]
+                zr_only,
+                columns_to_drop=["NAICS Index Use Name", "NAICS Code"],
             ),
         )
 
