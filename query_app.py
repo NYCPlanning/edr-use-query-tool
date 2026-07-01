@@ -289,6 +289,11 @@ def _(pd):
         style_cell=_style_is_allowed,
     ):
         if data.empty:
+            # No rows to render. Degrade gracefully with a message instead of an
+            # empty table (or a raise) so the public app never blanks out. The
+            # could_be_empty case is the common "NAICS index not addressed" one; the
+            # generic empty case shouldn't normally occur, and the characterization
+            # test guards against it silently masking a regression.
             if could_be_empty:
                 return "The chosen NAICS Index is not explicitly addressed in the Zoning Resolution. Try an alternative/broader term or search by a Zoning Resolution use."
             return "No results to display for this selection."
@@ -1144,6 +1149,9 @@ def _(
             uses_by_zoning_district["Use Name"] == use_name
         ].reset_index(drop=True)
         first_columns = [
+            "Use Group",
+            "Use Header",
+            "Use Name",
             "Zoning District",
             "Is Allowed",
         ]
