@@ -40,6 +40,9 @@ def _():
 
 @app.cell
 def _():
+    import io
+    import urllib.request
+
     import pandas as pd
     import pyarrow  # to force install in WASM notebook
 
@@ -80,8 +83,24 @@ def _():
         read_csv also allocates writable numpy arrays, so it sidesteps the read-only
         Arrow buffers (see the infer_string note above) rather than needing a
         re-materialization pass.
+
+        We fetch the raw bytes ourselves rather than letting pandas read the URL
+        directly. In the WASM build ``source`` is an HTTP URL and GitHub Pages serves
+        these CSVs with ``Content-Encoding: gzip``; the browser already decompresses
+        the body, but pyodide-http leaves the header in place and pandas' URL reader
+        would honor it and gunzip the plaintext again (``BadGzipFile: Not a gzipped
+        file``). Handing pandas a nameless buffer of the already-decompressed bytes
+        sidesteps that. Locally ``source`` is a filesystem path, which we turn into a
+        ``file://`` URL so the identical fetch-then-parse path runs in both
+        environments (and is therefore testable locally).
         """
-        frame = pd.read_csv(str(SOURCE_DATA_DIRECTORY / filename), dtype=str)
+        source = SOURCE_DATA_DIRECTORY / filename
+        url = str(source)
+        if "://" not in url:
+            url = source.as_uri()
+        with urllib.request.urlopen(url) as response:
+            data = io.BytesIO(response.read())
+        frame = pd.read_csv(data, dtype=str)
         for column in _BOOLEAN_SOURCE_COLUMNS:
             if column in frame.columns:
                 frame[column] = frame[column].map(
