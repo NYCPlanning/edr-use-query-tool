@@ -1,0 +1,2190 @@
+{
+  "district::C1::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "d734527b740f8192",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      7713,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C1::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "2f4be9c978912553",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      83,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C2::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "99699950b4ff11eb",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9817,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C2::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "6cdce2df025db8b2",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      84,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C3::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "1d1a01da2827921c",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      415,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C3::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "d155b4c9a5efec52",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C4::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "d5bcb9518ac1bcf5",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9824,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C4::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "c9e33a387372bf27",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      91,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C5::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "c04af1ad3d0b382f",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9824,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C5::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "8f011b1d338826f4",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      91,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C6::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "adc15ac7daae4647",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9824,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C6::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "96566208b4a63c87",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      91,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C7::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "50053f6826df874f",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9825,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C7::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "1dad648c555dd964",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      87,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C8::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "3a99962b304c7b5c",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      9925,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::C8::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "3e4ca4d286b4c180",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      90,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M1::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "c3ffa2c8f6586e3c",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      13387,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M1::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "76933ac68a171103",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      108,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M2::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "53c476c8b8270baa",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      12950,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M2::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "0d1dda3c81dbed45",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      82,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M3::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "3fe2273ade3e26be",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      12950,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::M3::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "71bf634308d1a0bd",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      82,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R10::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "e0d0f387ac6470ee",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      59,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R10::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "c9315cf8d9c933dd",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R11::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "88d33670ce4bd109",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R11::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "cca540bcc007aa95",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R12::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "8daa695462cc6916",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R12::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "fdcd8599d2c25196",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R1::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "bd98a327b5361446",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      54,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R1::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "3e8f188ad837c9c8",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      53,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R2::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "ff8faa7ce2923921",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      54,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R2::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "9129d64a05937fbd",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      53,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R3::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "aef28dc32e325c61",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R3::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "a21d74076161bb1d",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R4::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "8c746b5b8874221b",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R4::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "5cc79482eaaf0e68",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R5::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "f88560b3809d1af4",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R5::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "309a34c2a553c02f",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R6::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "964d7c44d5e9b75e",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R6::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "489604696ad8d63e",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R7::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "9d4afc32d46294f5",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R7::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "cc24578238517c41",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R8::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "46af899c087c2bbd",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R8::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "494b5dab37f80109",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R9::expanded": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "NAICS Code"
+    ],
+    "content_sha": "9898a264977e1c4e",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      58,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "district::R9::zr_only": {
+    "columns": [
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "002e46c75b9352fd",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      57,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::ATMs (automated teller machines) manufacturing": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "df0d64b3c02eb09e",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Caps, blasting and detonating, manufacturing": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "50350b28c2949f9e",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Drawers cut and sew apparel contractors": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "1429dae12c40f908",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Handheld edge tools (except scissors-type), nonelectric, manufacturing": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "ded573d3f0f2855f",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Micrometers, machinist's precision tools, manufacturing": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "2f7d010498d155e4",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Property protection services (except armored car, security systems)": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "bf41c5a115fbbd5b",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Solar cells manufacturing": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "d883138daa09d0d7",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "naics_use::Structural shapes, iron or steel, made in iron and steel mills": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name",
+      "NAICS Index Use Name",
+      "NAICS Code"
+    ],
+    "content_sha": "a3c91b0dee68dfaf",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      13
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::#Amusement or recreation facilities#": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "310abc1206f98304",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::All other personal care services (in 8121)": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "d8dbb52dbae64aeb",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::Community centers or settlement houses with sleeping accommodations": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "5647549b259a0332",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::Grocery and convenience retailers (4451)": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "4a194ccdb1ce6631",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::Other miscellaneous manufacturing (3399)": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "762a3a60bc9e4d38",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "zr_use::Riding academies or stables": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes"
+    ],
+    "content_sha": "0a03a429340520e4",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      8
+    ],
+    "style_cell": "_style_is_allowed"
+  }
+}
