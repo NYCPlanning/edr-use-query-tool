@@ -147,6 +147,12 @@ def _capture_all(ns, orch_src):
     for name in dict.fromkeys(expanded):
         captures[f"naics_use::{name}"] = _snapshot(run(None, name, "Expanded terms")["by_use_name_result"])
 
+    # A ZR use chosen in the "Expanded terms" tab: the NAICS lookup misses and it
+    # falls back to the ZR search. Covers that the fallback result keeps the
+    # use-identity columns (Use Group / Use Category / Zoning Resolution Use Name).
+    for name in zr_names[:2]:
+        captures[f"expanded_zr_fallback::{name}"] = _snapshot(run(None, name, "Expanded terms")["by_use_name_result"])
+
     return captures
 
 

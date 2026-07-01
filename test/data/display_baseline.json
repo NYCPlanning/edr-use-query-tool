@@ -1701,6 +1701,76 @@
     ],
     "style_cell": "_style_is_allowed"
   },
+  "expanded_zr_fallback::#Amusement or recreation facilities#": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
+    ],
+    "content_sha": "b48ee660f80b7475",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
+  "expanded_zr_fallback::#Automotive service stations#": {
+    "columns": [
+      "Zoning District",
+      "Is it Allowed?",
+      "Special Permit",
+      "Size Restrictions",
+      "Additional Conditions",
+      "Open Use Allowances",
+      "Limitations",
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
+    ],
+    "content_sha": "fa533bf773662c51",
+    "dtypes": [
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object",
+      "object"
+    ],
+    "kind": "table",
+    "shape": [
+      23,
+      11
+    ],
+    "style_cell": "_style_is_allowed"
+  },
   "naics_use::ATMs (automated teller machines) manufacturing": {
     "columns": [
       "Zoning District",
@@ -2022,10 +2092,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "310abc1206f98304",
+    "content_sha": "b48ee660f80b7475",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2038,7 +2114,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   },
@@ -2051,10 +2127,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "d8dbb52dbae64aeb",
+    "content_sha": "2185b26c8f138691",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2067,7 +2149,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   },
@@ -2080,10 +2162,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "5647549b259a0332",
+    "content_sha": "cbcc4caa53ef3900",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2096,7 +2184,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   },
@@ -2109,10 +2197,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "4a194ccdb1ce6631",
+    "content_sha": "da4bf9e2d298d739",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2125,7 +2219,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   },
@@ -2138,10 +2232,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "762a3a60bc9e4d38",
+    "content_sha": "b51e7274d9c1ecb6",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2154,7 +2254,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   },
@@ -2167,10 +2267,16 @@
       "Additional Conditions",
       "Open Use Allowances",
       "Limitations",
-      "Use Notes"
+      "Use Notes",
+      "Use Group",
+      "Use Category",
+      "Zoning Resolution Use Name"
     ],
-    "content_sha": "0a03a429340520e4",
+    "content_sha": "82fab85694448e55",
     "dtypes": [
+      "object",
+      "object",
+      "object",
       "object",
       "object",
       "object",
@@ -2183,7 +2289,7 @@
     "kind": "table",
     "shape": [
       23,
-      8
+      11
     ],
     "style_cell": "_style_is_allowed"
   }
