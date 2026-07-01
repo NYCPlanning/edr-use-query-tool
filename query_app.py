@@ -41,7 +41,6 @@ def _():
 @app.cell
 def _():
     import pandas as pd
-    import polars as pl
     import pyarrow  # to force install in WASM notebook
 
     # pandas 3.0 defaults string columns to a pyarrow-backed ``str`` dtype. Under
@@ -51,8 +50,7 @@ def _():
     # string dtype keeps strings as plain numpy ``object`` everywhere (including
     # the ``astype(str)`` calls in the explode helpers), so every merge uses the
     # read-only-safe object path. Guarded because the option may not exist in the
-    # exact pandas build Pyodide ships. See to_pandas_writable() for the polars
-    # half of this fix.
+    # exact pandas build Pyodide ships.
     try:
         pd.options.future.infer_string = False
     except Exception:
@@ -61,25 +59,42 @@ def _():
     # Using mo.notebook_location() to access data both locally and when running via WebAssembly (e.g. hosted on GitHub Pages)
     SOURCE_DATA_DIRECTORY = mo.notebook_location() / "public" / "data"
 
-    def to_pandas_writable(polars_df):
-        """Convert a polars DataFrame to pandas with numpy-backed string columns.
+    # Boolean columns in the source CSVs. We read every column as a string (so numeric
+    # code columns like "NAICS Code" aren't inferred as ints) and restore these to bool.
+    _BOOLEAN_SOURCE_COLUMNS = [
+        "Not permitted",
+        "Permitted",
+        "Permitted with limitations",
+        "Permitted with limitations*",
+        "Is Allowed flag",
+    ]
 
-        ``polars.to_pandas()`` builds pyarrow-backed columns directly, so it
-        ignores the ``future.infer_string`` opt-out above and still yields Arrow
-        ``str`` columns. Under Pyodide/WASM those Arrow buffers are read-only and
-        break pandas' merge factorizer. Re-materializing the string columns as
-        numpy ``object`` arrays gives every downstream merge read-only-safe join
-        keys. (Behavior is identical locally, where the buffers are writable.)
+    def load_source_csv(filename):
+        """Read a source CSV into a pandas DataFrame.
+
+        Uses pandas rather than polars so the WASM bundle doesn't download and
+        initialize the (large) polars wheel — polars was only ever used here for
+        read_csv. ``dtype=str`` avoids numeric inference of code columns; the default
+        NA handling keeps empty cells as NaN so downstream ``.isna()`` checks behave
+        exactly as before; and the known boolean columns are restored. pandas'
+        read_csv also allocates writable numpy arrays, so it sidesteps the read-only
+        Arrow buffers (see the infer_string note above) rather than needing a
+        re-materialization pass.
         """
-        pandas_df = polars_df.to_pandas()
-        string_columns = {
-            column: object
-            for column in pandas_df.columns
-            if str(pandas_df[column].dtype) in ("object", "str")
-        }
-        return pandas_df.astype(string_columns)
+        frame = pd.read_csv(str(SOURCE_DATA_DIRECTORY / filename), dtype=str)
+        for column in _BOOLEAN_SOURCE_COLUMNS:
+            if column in frame.columns:
+                frame[column] = frame[column].map(
+                    {
+                        "True": True,
+                        "False": False,
+                        "true": True,
+                        "false": False,
+                    }
+                )
+        return frame
 
-    return SOURCE_DATA_DIRECTORY, pd, pl, to_pandas_writable
+    return load_source_csv, pd
 
 
 @app.cell(hide_code=True)
@@ -122,12 +137,6 @@ def _(user_accordion_instructions):
 @app.cell
 def _(user_accordion_view_all):
     user_accordion_view_all
-    return
-
-
-@app.cell
-def _():
-    # build UI components
     return
 
 
@@ -279,12 +288,10 @@ def _(pd):
         could_be_empty: bool = False,
         style_cell=_style_is_allowed,
     ):
-        if could_be_empty and data.empty:
-            # this is only the case when a NAICS Index is not addressed in the ZR
-            return "The chosen NAICS Index is not explicitly addressed in the Zoning Resolution. Try an alternative/broader term or search by a Zoning Resolution use."
-
         if data.empty:
-            raise ValueError("Data for a UI table is empty but shouldn't be.")
+            if could_be_empty:
+                return "The chosen NAICS Index is not explicitly addressed in the Zoning Resolution. Try an alternative/broader term or search by a Zoning Resolution use."
+            return "No results to display for this selection."
 
         return mo.ui.table(
             data,
@@ -614,19 +621,8 @@ def _():
 
 
 @app.cell
-def _():
-    # get data
-    return
-
-
-@app.cell
-def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
-    uses_by_zoning_district = to_pandas_writable(
-        pl.read_csv(
-            str(SOURCE_DATA_DIRECTORY / "uses_by_zoning_district.csv"),
-            infer_schema_length=None,
-        )
-    )
+def _(load_source_csv):
+    uses_by_zoning_district = load_source_csv("uses_by_zoning_district.csv")
     return (uses_by_zoning_district,)
 
 
@@ -687,31 +683,15 @@ def _(prepare_results_columns, uses_by_zoning_district):
 
 
 @app.cell
-def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
-    addressed_naics_titles = to_pandas_writable(
-        pl.read_csv(
-            str(SOURCE_DATA_DIRECTORY / "addressed_naics_titles.csv"),
-            infer_schema_length=None,
-        )
-    )
+def _(load_source_csv):
+    addressed_naics_titles = load_source_csv("addressed_naics_titles.csv")
     return (addressed_naics_titles,)
 
 
 @app.cell
-def _(SOURCE_DATA_DIRECTORY, pl, to_pandas_writable):
-    naics_codes = to_pandas_writable(
-        pl.read_csv(
-            str(SOURCE_DATA_DIRECTORY / "naics_codes.csv"),
-            infer_schema_length=None,
-        )
-    )
+def _(load_source_csv):
+    naics_codes = load_source_csv("naics_codes.csv")
     return (naics_codes,)
-
-
-@app.cell
-def _():
-    # utils below are copied from the utils/ files because they can't be packaged and imported with the WASM notebook.
-    return
 
 
 @app.cell
