@@ -10,7 +10,7 @@
 
 import marimo
 
-__generated_with = "0.23.11"
+__generated_with = "0.19.4"
 app = marimo.App(
     width="medium",
     app_title="Land Use Lookup",
@@ -29,7 +29,7 @@ def _():
         <span style="
             font-family: 'Public Sans', sans-serif;
             font-weight: 800;
-            font-size: 24px;
+            font-size: 28px;
             line-height: 24px;
             color: #000000;
         ">Land Use Lookup Tool</span>
@@ -112,7 +112,6 @@ def _():
                     }
                 )
         return frame
-
     return load_source_csv, pd
 
 
@@ -241,7 +240,7 @@ def _():
 
     _Users should prioritize the language of the Zoning Resolution over associated NAICS index names when considering applicability. Some commercial uses (e.g., agriculture, offices, health care facilities) do not have affiliated NAICS codes specified in the Zoning Resolution, though may align with unlisted NAICS codes and indices._
 
-    _Note that some non-conforming uses exist in the city, particularly where sites pre-date zoning. There are other policies that govern siting and use allowances in addition to zoning. Contact DCP's Zoning Help Desk at 212-720-3291 with site-specific use allowance inquiries._
+    _Note that some non-conforming uses exist in the city, particularly where sites pre-date zoning. There are other policies that govern siting and use allowances in addition to zoning. **Contact LandUseLookup@planning.nyc.gov with any inquiries about the tool** or call DCP's Zoning Help Desk at 212-720-3291 with site-specific use allowance inquiries._
     """)
     mo.Html(f'<div class="disclaimer">{_disclaimer.text}</div>')
     return
@@ -408,7 +407,6 @@ def _(pd):
     def format_by_naics_use_table(data: pd.DataFrame):
         # NAICS results can be empty when the index isn't addressed in the ZR.
         return format_ui_table(_rename_and_order(data), could_be_empty=True)
-
     return (
         format_by_district_table,
         format_by_naics_use_table,
@@ -485,7 +483,6 @@ def result_builders(
             return naics_attempt
         except AssertionError:
             return zr_use_table()
-
     return build_by_district_tables, resolve_use_name_result
 
 
@@ -627,7 +624,9 @@ def _():
 
     **Some lots may have multiple standard zoning districts.** For example, a lot might be both R6B and C2-4. This indicates a _Commercial District overlay_, where use allowances are governed by the Commercial District.
 
-    **What if a zoning district is not listed on this tool?** Some zoning districts are not listed on this tool, such as SNX, LIC, 125 or DB. These indicate _Special Purpose Districts_ that may have different rules for allowable uses. A full list of Special Purpose Districts can be found in the Zoning Resolution's [Appendix B](https://zr.planning.nyc.gov/appendix-b-index-special-purpose-districts). For more information about rules in these districts, consult [Articles VIII through XIV](https://zr.planning.nyc.gov/article-viii) in the Zoning Resolution._
+    **What if a zoning district is not listed on this tool?** Some zoning districts are not listed on this tool, such as SNX, LIC, 125 or DB. These indicate _Special Purpose Districts_ that may have different rules for allowable uses. A full list of Special Purpose Districts can be found in the Zoning Resolution's [Appendix B](https://zr.planning.nyc.gov/appendix-b-index-special-purpose-districts). For more information about rules in these districts, consult [Articles VIII through XIV](https://zr.planning.nyc.gov/article-viii) in the Zoning Resolution.
+
+    **What if I can't find my use?** Try searching similar terms and phrases in the "Expanded Terms" dropdown until you find the closest match to your use of interest. Use terminology is limited to the language of the Zoning Resolution (and applicable NAICS index names for commercial uses) in order to remain consistent with NYC's zoning laws.
     """)
 
     user_accordion_instructions = mo.accordion(
@@ -1084,7 +1083,6 @@ def _(pd):
         ][permitted_use_codes.columns.to_list()].reset_index(drop=True)
 
         return reduced_use_names
-
     return (
         exclude_naics_codes,
         exclude_naics_names,
@@ -1371,7 +1369,6 @@ def _(
             "Use Name",
         ]
         return prepare_results_columns(results, first_columns, minimal_columns)
-
     return (
         get_all_uses_by_district,
         get_district_uses_by_naics_index,
